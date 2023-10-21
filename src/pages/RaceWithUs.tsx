@@ -9,7 +9,7 @@ const RaceWithUs = () => {
         <Container fluid style={{color: 'white', padding: '0'}}>
             <VideoKick />
             
-            <div className="row">
+            <div className="row" style={{background: 'transparent', zIndex: '1', position: 'relative'}}>
                 <div className="col-4">
                     <h1>Level 1</h1>
                     <ul>
