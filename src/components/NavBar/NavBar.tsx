@@ -18,6 +18,7 @@ const NavBar = () => {
                     <Container fluid>
                         <Navbar.Brand href="/">
                             <img id='barqia-symbol' src='img/barqia-symbol.png' />
+                            <img id='barqia-title' src='img/barqia-title.png' />
                         </Navbar.Brand>
                         <Nav.Link className='desktop-link' href='/'>
                             HOME
@@ -50,7 +51,7 @@ const NavBar = () => {
                         >
                             
                             <Offcanvas.Header closeButton>
-                            <img id='barqia-title' src='img/barqia-title-black.png' style={{ display: 'block' }} />
+                            <img id='barqia-title' src='img/barqia-title-black.png' style={{ background: 'black', display: 'block' }} />
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                                 
                                 </Offcanvas.Title>
@@ -69,12 +70,13 @@ const NavBar = () => {
                                        color: 'white' }} href="/CaseStudies">CASE STUDIES</Nav.Link>
                                     <Nav.Link style={{
                                        color: 'white' }} href="/Contact">CONTACT</Nav.Link>
+                                       <Nav.Link style={{color: 'white', textAlign: 'center' }} href="/World">
+                                            <Button style={{backgroundColor: '#008F98'}}>
+                                                <a href='World' style={{color: 'white'}}>Barqia Sports <br /> World</a>
+                                            </Button>  
+                                        </Nav.Link>
                                 </Nav>
-                                <Nav.Link style={{color: 'white', textAlign: 'center' }} href="/World">
-                                    <button>
-                                        <a href='World'>Barqia Sports <br /> World</a>
-                                    </button>  
-                                </Nav.Link>
+                                
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
                     </Container>

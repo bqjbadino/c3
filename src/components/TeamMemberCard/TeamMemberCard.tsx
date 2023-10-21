@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 const TeamMemberCard = (props) => {
     return (
-        <Card style={{ marginTop: '20px'}}>
+        <Card style={{ height: '520px', marginTop: '20px'}}>
             <Card.Img variant="top" src={props.image} style={{
                 borderRadius: '100%', 
                 margin: 'auto', 
