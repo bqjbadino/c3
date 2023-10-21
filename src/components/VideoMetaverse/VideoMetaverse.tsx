@@ -4,11 +4,9 @@ import './VideoMetaverse.css';
 
 const VideoMetaverse = () => {
     return (
-        <div>
-            <video id="videoMetaverse" autoPlay muted loop>
-                <source src='videos/barqia-metaverse.mp4' type='video/mp4' />
-            </video>
-        </div>
+        <video id="videoMetaverse" autoPlay muted loop style={{position: 'absolute', width: '100%', top: '0', left: '0'}}>
+            <source src='videos/barqia-metaverse.mp4' type='video/mp4' />
+        </video>
     )
 }
 

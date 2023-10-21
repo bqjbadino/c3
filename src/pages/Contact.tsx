@@ -2,13 +2,20 @@ import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 
+import VideoTech1 from '../components/VideoTech1/VideoTech1.tsx'
+
 const Contact = () => {
     return (
-        <Container>
-            <div className="calendly-inline-widget" data-url="https://calendly.com/jpbadino"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <Container fluid style={{color: 'white', padding: '0'}}>
+            <VideoTech1 />
+            <div style={{background: 'transparent', zIndex: '1', position: 'relative'}}>
+                <div className="row calendly-inline-widget" data-url="https://calendly.com/jpbadino"></div>
+                
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                
+                <div className="contact2" style={{backgroundImage: '(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/map.jpg)'}} id="contact">
+            </div>
             
-            <div className="contact2" style={{backgroundImage: '(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/map.jpg)'}} id="contact">
                 <div className="container">
                     <div className="row contact-container">
                     <div className="col-lg-12">
@@ -71,8 +78,7 @@ const Contact = () => {
                     </div>
                     </div>
                 </div>
-                </div>
-
+            </div>
         </Container>
     )
 }
