@@ -19,7 +19,7 @@ const AboutUs = () => {
             <VideoTech1 />
 
             <Row id="team-cards" style={{color: 'white', position: 'relative', margin: '30px', zIndex: '1', }}>
-            <h1 style={{color: 'white', marginBottom: '40px', textAlign: 'center'}}>Meet the team:</h1>
+                <h1 style={{color: 'white', marginBottom: '40px', textAlign: 'center'}}>Meet the team:</h1>
                 <Col sm={12} md={6} lg={3}>
                     <TeamMemberCard
                         image='img/barqia-diego-lezica.jfif'
@@ -57,17 +57,22 @@ const AboutUs = () => {
                         description='MERN stack (MongoDB, Express.js, ReactJS, Node.js) developer.'
                     />
                 </Col>
-                <h2>Our mission</h2>
-                
-                <p>Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world. We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.</p>
-                
-                <h2>Our story</h2>
-                <p>Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of ​​founding Barqia Sports, a comprehensive fan engagement platform. We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.</p>
-                
-                <h2>Our vision</h2>
-                <p>To be the leading immersive fan engagement platform where all sports, clubs, athletes and fans from around the world meet with the aim of creating a deeper and more realistic relationship between all parties.</p>
+                <Col style={{position: 'relative'}}>
+                    <div>
+                        <h2>Our mission</h2>
+                        
+                        <p>Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world. We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.</p>
+                        
+                        <h2>Our story</h2>
+                        <p>Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of ​​founding Barqia Sports, a comprehensive fan engagement platform. We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.</p>
+                        
+                        <h2>Our vision</h2>
+                        <p>To be the leading immersive fan engagement platform where all sports, clubs, athletes and fans from around the world meet with the aim of creating a deeper and more realistic relationship between all parties.</p>
+                    </div>
 
-                <VideoGlobe />
+                    <VideoGlobe/>
+                </Col>
+                
             </Row>
         </Container>
     )
