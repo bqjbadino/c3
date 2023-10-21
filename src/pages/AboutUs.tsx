@@ -2,7 +2,6 @@ import React from 'react';
 
 import './AboutUs.css';
 
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -67,11 +66,10 @@ const AboutUs = () => {
                 <VideoGlobe />
                 <h2>Our story</h2>
                 <p>Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of ​​founding Barqia Sports, a comprehensive fan engagement platform. We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.</p>
-                <VideoWhatWeDo />
+                
                 <h2>Our vision</h2>
                 <p>Our vision
                     To be the leading immersive fan engagement platform where all sports, clubs, athletes and fans from around the world meet with the aim of creating a deeper and more realistic relationship between all parties.</p>
-                    <VideoRugby />
             </Row>
 
             <Row style={{color: 'white'}}>
