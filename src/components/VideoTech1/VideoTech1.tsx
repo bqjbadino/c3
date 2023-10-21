@@ -4,11 +4,9 @@ import './VideoTech1.css'
 
 const VideoTech1 = () => {
     return (
-        <div>
-            <video id="videoTech1" autoPlay muted loop>
-                <source src='tech-1.mp4' type='video/mp4' />
-            </video>
-        </div>
+        <video id="video-tech-1" autoPlay muted loop style={{width:'100%', position:'absolute', top:'0', left:'0'}}>
+            <source src='videos/tech-1.mp4' type='video/mp4' />
+        </video>
     )
 }
 
