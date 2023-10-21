@@ -1,0 +1,43 @@
+.bg-body-tertiary {
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.navBar-toggle.navbar-toggler.collapsed {
+    background: #008F98;
+}
+
+#barqia-symbol {
+    width: 60px;
+    margin: 0 20px;
+}
+
+#barqia-title {
+    width: 130px;
+}
+
+#offcanvasNavbar-expand-xxl {
+    background: black !important;
+}
+
+.offcanvas-header {
+    background: white;
+}
+
+.desktop-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    .navBar-toggle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #barqia-title, .desktop-link {
+        display: none;
+    }
+}
