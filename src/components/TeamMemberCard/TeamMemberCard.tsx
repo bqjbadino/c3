@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 const TeamMemberCard = (props) => {
     return (
-        <Card style={{ height: '520px', marginTop: '20px'}}>
+        <Card style={{height: '520px', marginTop: '20px', textAlign: 'center'}}>
             <Card.Img variant="top" src={props.image} style={{
                 borderRadius: '100%', 
                 margin: 'auto', 
@@ -13,7 +13,7 @@ const TeamMemberCard = (props) => {
             }}/>
             <Card.Body>
                 <Card.Title>
-                    <h3>{props.name}</h3>
+                    <h3 style={{fontSize: '25px', fontWeight: 'bold'}}>{props.name}</h3>
                 </Card.Title>
                 <Card.Text>
                     <h5>
@@ -24,7 +24,7 @@ const TeamMemberCard = (props) => {
                     <h6>{props.degree}</h6>
                 </Card.Text>
                 <Card.Text>
-                    <p>
+                    <p style={{lineHeight: '1.5em'}}>
                         <em>{props.description}</em>
                     </p>
                 </Card.Text>

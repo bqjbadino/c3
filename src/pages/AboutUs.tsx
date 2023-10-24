@@ -19,7 +19,6 @@ const AboutUs = () => {
             <VideoTech1 />
 
             <Row id="team-cards" style={{color: 'white', position: 'relative', margin: '30px', zIndex: '1', }}>
-                <h1 style={{color: 'white', marginBottom: '40px', textAlign: 'center'}}>Meet the team:</h1>
                 <Col sm={12} md={6} lg={3}>
                     <TeamMemberCard
                         image='img/barqia-diego-lezica.jfif'
@@ -52,12 +51,16 @@ const AboutUs = () => {
                     <TeamMemberCard
                         image='img/barqia-juan-pablo-badino.png'
                         name='Juan Pablo Badino'
-                        title='Full Stack Developer'
-                        degree='Web development specialist'
+                        title='CIO'
+                        degree='Software Development Specialist'
                         description='MERN stack (MongoDB, Express.js, ReactJS, Node.js) developer.'
                     />
                 </Col>
                 <Col style={{position: 'relative'}}>
+                <VideoGlobe/>
+                    <div>
+                        <h1 style={{color: 'white', marginTop: '80px', marginBottom: '30px', textAlign: 'center'}}>Meet the team:</h1>
+                    </div>
                     <div>
                         <h2>Our mission</h2>
                         
@@ -69,8 +72,6 @@ const AboutUs = () => {
                         <h2>Our vision</h2>
                         <p>To be the leading immersive fan engagement platform where all sports, clubs, athletes and fans from around the world meet with the aim of creating a deeper and more realistic relationship between all parties.</p>
                     </div>
-
-                    <VideoGlobe/>
                 </Col>
                 
             </Row>

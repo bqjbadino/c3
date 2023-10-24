@@ -30,8 +30,16 @@
     text-decoration: underline;
 }
 
+.barqia-button {
+    background: #2A8C9C;
+}
+
+        .barqia-button:hover {
+            background: #2C014B;
+        }
+
 @media only screen and (min-width: 600px) {
-    .navBar-toggle {
+    .offcanvas-body, .navBar-nav, .navBar-toggle {
         display: none;
     }
 }

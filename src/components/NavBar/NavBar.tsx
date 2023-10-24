@@ -39,7 +39,7 @@ const NavBar = () => {
                             CONTACT
                         </Nav.Link>
                         <Nav.Link className='desktop-link' href='/World'>
-                            <Button variant="outline-success">Barqia Sports <br /> World</Button>
+                            <Button className='barqia-button'>Barqia Sports <br /> World</Button>
                         </Nav.Link>
                         <Navbar.Toggle className='navBar-toggle' aria-controls={`offcanvasNavbar-expand-${expand}`}/>
                         

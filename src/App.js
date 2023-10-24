@@ -16,6 +16,7 @@ import World from './pages/World.tsx';
 function App() {
   return (
     <div className="App" style={{background: 'black'}}>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
       <NavBar />
       <Routes>
           <Route index element={<Home />} />
