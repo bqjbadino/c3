@@ -1,5 +1,8 @@
 html, body {
     background: black;
+    font-family: Montserrat !important;
+    line-height: 2.7em !important;
+    text-align: justify;
     margin: 0;
     padding: 0;
 }

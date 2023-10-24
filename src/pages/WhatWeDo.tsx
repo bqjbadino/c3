@@ -21,8 +21,6 @@ const WhatWeDo = () => {
                 <p>Join the Barqia Sports World platform, interact and level up!</p>
 
                 <p>On the side of the sports entities and athletes, they will be able to grow their level and therefore increase their digital assets thanks to the interaction of their fans in the activities or experiences within Barqia Sports World. The fans of each club, while interacting or participating in the experiences within Barqia Sports World, will be earning points and therefore obtaining real benefits from their club or athlete.</p>
-
-               
             </Row>
         </Container>
     )

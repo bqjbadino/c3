@@ -58,6 +58,10 @@
   position: relative;
   top: 200px;
 }
+.barqia-control {
+  background: 'rgba(0, 0, 0, 0.7)';
+  color: 'white';
+}
 
 .contact2 .btn-danger-gradiant {
   background: #ff4d7e;
