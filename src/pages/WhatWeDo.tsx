@@ -8,8 +8,8 @@ import VideoWhatWeDo from '../components/VideoWhatWeDo/VideoWhatWeDo.tsx'
 const WhatWeDo = () => {
     return (
         <Container>
-            <Row style={{color: 'white'}}>
-                <h1>What we do</h1>
+            <Row style={{background: 'rgba(0, 0, 0, 0.7)', color: 'white', fontSize: '1.3em', lineHeight: '2.3em', marginBottom: '80px', padding: '40px 0'}}>
+                <h1 style={{fontWeight: 'bold', marginBottom: '40px', textAlign: 'center'}}>What we do</h1>
 
                 <p>We are the leading IMMERSIVE FAN ENGAMENT PLATFORM perfect for clubs, athletes and fans of all sports worldwide. Participate in all the immersive experiences, earn points, get benefits and help to grow your favorite club or athlete.</p>
 
