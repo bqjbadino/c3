@@ -44,7 +44,7 @@ const AboutUs = () => {
                         name='Diego Gómez'
                         title='CTO'
                         degree='Graduate in '
-                        description='specialist'
+                        description='Specialist'
                     />
                 </Col>
                 <Col sm={12} md={6} lg={3}>
