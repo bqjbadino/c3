@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NavBar from '../components/NavBar/NavBar.tsx';
+
 import Container from 'react-bootstrap/Container';
 
 import VideoTech1 from '../components/VideoTech1/VideoTech1.tsx'

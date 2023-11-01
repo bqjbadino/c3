@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
+import NavBar from '../components/NavBar/NavBar.tsx';
+
 import VideoWorld from '../components/VideoWorld/VideoWorld.tsx'
 
 const World = () => {

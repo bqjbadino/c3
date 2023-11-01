@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NavBar from '../components/NavBar/NavBar.tsx';
+
 import { Row, Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 
@@ -14,7 +16,6 @@ const Home = () => {
             <VideoMetaverse />
             <Video360 />
                 <Container>
-                    
                     <Row style={{marginTop: '50px'}}>
                         <Col lg={6} md={6} sm={12}>
                             <VideoRugby />

@@ -14,7 +14,7 @@ const NavBar = () => {
     return (
         <>
             {['xxl'].map((expand) => (
-                <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+                <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                     <Container fluid>
                         <Navbar.Brand href="/">
                             <img id='barqia-symbol' src='img/barqia-symbol.png' />
@@ -34,6 +34,9 @@ const NavBar = () => {
                         </Nav.Link>
                         <Nav.Link className='desktop-link' href='CaseStudies'>
                             CASE STUDIES
+                        </Nav.Link>
+                        <Nav.Link className='desktop-link' href='/Events'>
+                            EVENTS
                         </Nav.Link>
                         <Nav.Link className='desktop-link' href='/Contact'>
                             CONTACT
@@ -68,6 +71,8 @@ const NavBar = () => {
                                        color: 'white' }} href="/RaceWithUs">RACE WITH US</Nav.Link>
                                     <Nav.Link style={{
                                        color: 'white' }} href="/CaseStudies">CASE STUDIES</Nav.Link>
+                                    <Nav.Link style={{
+                                       color: 'white' }} href="/Events">EVENTS</Nav.Link>
                                     <Nav.Link style={{
                                        color: 'white' }} href="/Contact">CONTACT</Nav.Link>
                                        <Nav.Link style={{color: 'white', textAlign: 'center' }} href="/World">

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NavBar from '../components/NavBar/NavBar.tsx';
+
 import { Container, Row, Col } from 'react-bootstrap';
 
 const CaseStudies = () => {

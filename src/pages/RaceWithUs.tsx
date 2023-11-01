@@ -2,6 +2,8 @@ import React from 'react';
 
 import './RaceWithUs.css';
 
+import NavBar from '../components/NavBar/NavBar.tsx';
+
 import Container from 'react-bootstrap/Container';
 
 import VideoKick from '../components/VideoKick/VideoKick.tsx'
