@@ -19,15 +19,22 @@ function App() {
   return (
     <div className="App" style={{background: 'black'}}>
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
+<<<<<<< HEAD
       { window.location.pathname != "/Events/DecemberHackJam" && <NavBar /> }
+=======
+      <NavBar />
+>>>>>>> 0269165ce47a0ee41c6ac37db314c4f71b13fe3c
       <Routes>
           <Route index element={<Home />} />
           <Route path='AboutUs' element={<AboutUs />} />
           <Route path='WhatWeDo' element={<WhatWeDo />} />
           <Route path='RaceWithUs' element={<RaceWithUs />} />
           <Route path='CaseStudies' element={<CaseStudies />} />
+<<<<<<< HEAD
           <Route path='Events' element={<Events />} />
           <Route path='Events/DecemberHackJam' element={<DecemberHackJam />} />
+=======
+>>>>>>> 0269165ce47a0ee41c6ac37db314c4f71b13fe3c
           <Route path='Contact' element={<Contact />} />
           <Route path='World' element={<World />} />
       </Routes>

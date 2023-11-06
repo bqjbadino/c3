@@ -1,6 +1,11 @@
 import React from 'react';
 
+<<<<<<< HEAD
 import NavBar from '../components/NavBar/NavBar.tsx';
+=======
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+>>>>>>> 0269165ce47a0ee41c6ac37db314c4f71b13fe3c
 
 import { Row, Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
