@@ -36,3 +36,7 @@ strong {
     color: #EA37A3;
     font-weight: bold;
 }
+
+.hide-on-desktop {
+    display: none;
+}

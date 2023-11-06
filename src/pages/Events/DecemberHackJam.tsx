@@ -19,7 +19,7 @@ const DecemberHackJam = () => {
                     <NavBar />
                 </Col>
                 <Col sm={12} style={{ marginTop: '-135px', position: 'relative'}}>
-                    <img src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
+                    <img src='/img/barqia-vr-5.JPG' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
                     <div style={{ position: 'relative', marginTop: '-250px', zIndex: '1'}}>
                         <p>
                             ¡Súmate al <strong>Barqia Sports Hack Jam 2023</strong>!
@@ -96,7 +96,7 @@ const DecemberHackJam = () => {
 
                 <Col>
                     <h1 style={{ margin: '40px 0'}}>
-                        PREMIOS
+                        <strong>PREMIOS</strong>
                     </h1>
                     <p>
                         El (fecha) cada equipo presentará su juego ante un jurado de expertos. Tras su valoración y la votación de los mismos participantes, se entregarán premios en función de las siguientes categorías:
@@ -202,7 +202,7 @@ const DecemberHackJam = () => {
 
                 <Col sm={12} style={{ marginTop: '40px'}}>
                     <h1 style={{ marginBottom: '30px'}}>
-                        AGENDA
+                        <strong>AGENDA</strong>
                     </h1>
 
                     <h2>

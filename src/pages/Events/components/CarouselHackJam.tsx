@@ -11,7 +11,7 @@ const CarouselHackJam = () => {
             <source src='/videos/barqia-vr-7.mp4' />
         </video>
          */}
-        <img src='/img/barqia-vr-7.jpg' />
+        <img src='/img/barqia-vr-7.JPG' />
         <Carousel.Caption>
           {/**
           <h5>First slide label</h5>
@@ -25,7 +25,7 @@ const CarouselHackJam = () => {
             <source src='/videos/barqia-ai-2.mp4' />
         </video>
          */}
-        <img src='/img/barqia-ai-2.jpg' />
+        <img src='/img/barqia-ai-2.JPG' />
         <Carousel.Caption>
           {/**
           <h5>Second slide label</h5>
@@ -39,7 +39,7 @@ const CarouselHackJam = () => {
             <source src='/videos/barqia-vr-6.mp4' />
         </video>
          */}
-        <img src='/img/barqia-vr-6.jpg' />
+        <img src='/img/barqia-vr-6.JPG' />
         <Carousel.Caption>
           {/**
           <h5>Third slide label</h5>
