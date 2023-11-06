@@ -15,3 +15,8 @@ h1, h2, p {
 Button { 
     width: 100%;
 }
+
+.img-symbol {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}

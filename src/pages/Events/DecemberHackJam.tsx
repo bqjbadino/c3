@@ -134,17 +134,17 @@ const DecemberHackJam = () => {
                     {/**
                     <img src='/img/barqia-certificate.jpg' />
                     */}
-                    <img src='/img/barqia-certificate-2.png' />
+                    <img className='img-symbol' src='/img/barqia-symbol-certificate.png' />
                     <h1>
                         Certificados de participación
                     </h1>
 
-                    <img src='/img/barqia-trophy-3.png' />
+                    <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
                     <h1>
                         Trofeos
                     </h1>
                     
-                    <img src='/img/barqia-gift-card.jpg' />
+                    <img className='img-symbol' src='/img/barqia-symbol-gift.png' />
                     <h1>
                         Gift cards
                     </h1>
@@ -178,27 +178,27 @@ const DecemberHackJam = () => {
                 </Col>
 
                 <Col sm={12}>
-                    <img src='/img/barqia-food-and-drink.jpg' />
+                    <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                     <h1>
                         Comida y bebida
                     </h1>
 
-                    <img src='/img/barqia-workstation.jpg' />
+                    <img className='img-symbol' src='/img/barqia-symbol-computer.png' />
                     <h1>
                         Mesa de trabajo
                     </h1>
                     
-                    <img src='/img/barqia-internet.jpg' />
+                    <img className='img-symbol' src='/img/barqia-symbol-wifi.png' />
                     <h1>
                         Conexión a internet
                     </h1>
 
-                    <img src='/img/barqia-rest.jpg' />
+                    <img className='img-symbol' src='/img/barqia-symbol-building.png' />
                     <h1>
                         Zona de descanso
                     </h1>
 
-                    <img src='/img/barqia-welcome-kit-2.jpg' />
+                    <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' />
                     <h1>
                         Kit de bienvenida
                     </h1>
