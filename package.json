@@ -6,11 +6,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "aframe": "^1.4.2",
     "aframe-react": "^4.4.0",
-=======
->>>>>>> 0269165ce47a0ee41c6ac37db314c4f71b13fe3c
     "bootstrap": "^5.3.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",

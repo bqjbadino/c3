@@ -6,10 +6,10 @@ import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
-import NavBar from './Components/NavBar.tsx';
-import CarouselHackJam from './Components/CarouselHackJam.tsx';
-import CarouselHackJam2 from './Components/CaruoselHackJam2.tsx';
-import Countdown from './Components/Countdown/Countdown.tsx';
+import NavBar from './components/NavBar.tsx';
+import CarouselHackJam from './components/CarouselHackJam.tsx';
+import CarouselHackJam2 from './components/CaruoselHackJam2.tsx';
+import Countdown from './components/Countdown/Countdown.tsx';
 
 const DecemberHackJam = () => {
     return (
