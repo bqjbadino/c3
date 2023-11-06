@@ -1,5 +1,9 @@
 #countdown {
-    z-index: 1;
-    margin-left: -10px;
     font-size: 14px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+#countdown p {
+    text-align: center;
 }

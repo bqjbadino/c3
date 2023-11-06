@@ -15,11 +15,11 @@ const DecemberHackJam = () => {
     return (
         <Container>
             <Row>
-                <Col sm={12}>
+                <Col sm={12} lg={12}>
                     <NavBar />
                 </Col>
-                <Col sm={12} style={{ marginTop: '-135px', position: 'relative'}}>
-                    <img src='/img/barqia-vr-5.JPG' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
+                <Col sm={12} lg={12} style={{ marginTop: '-135px', position: 'relative'}}>
+                    <img className='hide-on-desktop' src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
                     <div style={{ position: 'relative', marginTop: '-250px', zIndex: '1'}}>
                         <p>
                             ¡Súmate al <strong>Barqia Sports Hack Jam 2023</strong>!
@@ -30,11 +30,11 @@ const DecemberHackJam = () => {
                     </div>
                 </Col>
 
-                <Col sm={12}>
+                <Col sm={12} lg={12}>
                     <Countdown />
                 </Col>
 
-                <Col sm={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
+                <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
                     <p>
                         Sports es una unidad de <strong>BARQIA</strong> pensada para instituciones deportivas y jugadores que quieran dar un paso hacia adelante en materia de tecnología y datos. A su vez, ofrecemos soluciones B2B a través de nuestro modelo de negocios SaaS (Software as a Service) en donde ofrecemos armar tu propia colección de NFT y mucho más.
                     </p>
@@ -54,7 +54,7 @@ const DecemberHackJam = () => {
                 </Col>
 
                 {/**
-                <Col sm={12}>
+                <Col sm={12} lg={12}>
                     <video muted loop autoPlay style={{ width: '100%'}}>
                         <source src='/videos/barqia-ai-1.mp4' />
                     </video>
@@ -65,11 +65,11 @@ const DecemberHackJam = () => {
                 </Col>
                  */}
 
-                <Col sm={12}>
+                <Col className='hide-on-desktop' sm={12} lg={12}>
                     <CarouselHackJam />
                 </Col>
                 
-                <Col>
+                <Col lg={12}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>¡PARTICIPA EN LA HACK JAM!</strong>
                     </h1>
@@ -94,7 +94,7 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
-                <Col>
+                <Col lg={12}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>PREMIOS</strong>
                     </h1>
@@ -121,12 +121,12 @@ const DecemberHackJam = () => {
                 </Col>
 
                  {/**
-                <Col sm={12}>
+                <Col sm={12} lg={12}>
                     <CarouselHackJam2 />
                 </Col>
                  */}
 
-                <Col sm={12} style={{ textAlign: 'center' }}>
+                <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
                     {/**
                     <img src='/img/barqia-certificate.jpg' />
                     */}
@@ -146,7 +146,7 @@ const DecemberHackJam = () => {
                     </h1>
                 </Col>
 
-                <Col sm={12}>
+                <Col sm={12} lg={12}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>¡VIVE UNA EXPERIENCIA A JAMMER REAL!</strong>
                     </h1>
@@ -173,7 +173,7 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
-                <Col sm={12} style={{ textAlign: 'center' }}>
+                <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
                     <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                     <h1>
                         <span className='barqia-purple-text'>Comida y bebida</span>
@@ -200,7 +200,7 @@ const DecemberHackJam = () => {
                     </h1>
                 </Col>
 
-                <Col sm={12} style={{ marginTop: '40px'}}>
+                <Col sm={12} lg={12} style={{ marginTop: '40px'}}>
                     <h1 style={{ marginBottom: '30px'}}>
                         <strong>AGENDA</strong>
                     </h1>
@@ -230,7 +230,7 @@ const DecemberHackJam = () => {
                     </ul>
                 </Col>
 
-                <Col>
+                <Col lg={12}>
                     <h2>
                         <strong>
                             SÁBADO
@@ -252,7 +252,7 @@ const DecemberHackJam = () => {
                     </ul>
                 </Col>
 
-                <Col>
+                <Col lg={12}>
                     <h2>
                         <strong>
                             DOMINGO
@@ -278,7 +278,7 @@ const DecemberHackJam = () => {
                     </ul>
                 </Col>
 
-                <Col sm={12}>
+                <Col sm={12} lg={12}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>
                             CÓMO LLEGAR
@@ -310,14 +310,14 @@ const DecemberHackJam = () => {
                     </Button>
                 </Col>
 
-                <Col sm={12} style={{ margin: '20px 0'}}>
+                <Col sm={12} lg={12} style={{ margin: '20px 0'}}>
                     
                     <h4>
                         <a href=''>Aviso Legal y Cookies</a>
                     </h4>
                 </Col>
 
-                <Col sm={12} style={{ marginBottom: '40px'}}>
+                <Col sm={12} lg={12} style={{ marginBottom: '40px'}}>
                     
                     <h4>
                         <a href=''>Privacidad</a>

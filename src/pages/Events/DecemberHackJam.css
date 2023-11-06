@@ -37,6 +37,24 @@ strong {
     font-weight: bold;
 }
 
-.hide-on-desktop {
-    display: none;
+@media only screen and (min-width: 600px) {
+    * {
+        text-align: center;
+    }
+
+    button {
+        width: 300px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 40px 0;
+    }
+        ul li {
+            margin: 20px 0;
+        }
+
+    .hide-on-desktop {
+        display: none;
+    }
 }
