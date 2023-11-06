@@ -19,10 +19,10 @@ const DecemberHackJam = () => {
                     <NavBar />
                 </Col>
                 <Col sm={12} style={{ marginTop: '-135px', position: 'relative'}}>
-                    <video muted loop autoPlay style={{ width: '100%'}}>
+                    <video muted loop autoPlay style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}}>
                         <source src='/videos/barqia-vr-5.mp4' />
                     </video>
-                    <div style={{ marginTop: '-337px'}}>
+                    <div style={{ position: 'relative', marginTop: '-250px', zIndex: '1'}}>
                         <p>
                             ¡Súmate al Barqia Sports Hack Jam 2023!
                         </p>
@@ -32,17 +32,11 @@ const DecemberHackJam = () => {
                     </div>
                 </Col>
 
-                <Col sm={12} style={{ zIndex: '1'}}>
+                <Col sm={12}>
                     <Countdown />
                 </Col>
 
-                <Col sm={12}>
-                    <p>
-                        (contador)
-                    </p>
-                </Col>
-
-                <Col sm={12}>
+                <Col sm={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
                     <p>
                         Sports es una unidad de BARQIA pensada para instituciones deportivas y jugadores que quieran dar un paso hacia adelante en materia de tecnología y datos. A su vez, ofrecemos soluciones B2B a través de nuestro modelo de negocios SaaS (Software as a Service) en donde ofrecemos armar tu propia colección de NFT y mucho más.
                     </p>
@@ -61,21 +55,23 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
+                {/**
                 <Col sm={12}>
                     <video muted loop autoPlay style={{ width: '100%'}}>
                         <source src='/videos/barqia-ai-1.mp4' />
                     </video>
 
-                    <Button>
-                        Inscríbete aquí
+                    <Button style={{ margin: '40px 0', padding: '30px 0'}}>
+                        Quiero inscribirme
                     </Button>
                 </Col>
+                 */}
 
                 <Col sm={12}>
                     <CarouselHackJam />
                 </Col>
                 
-                <Col>
+                <Col style={{ marginTop: '40px'}}>
                     <h1>
                         ¡PARTICIPA EN LA HACK JAM!
                     </h1>
@@ -89,18 +85,18 @@ const DecemberHackJam = () => {
                         Completa el siguiente formulario e indica si participas de forma individual o en equipo.
                     </p>
                     <p>
-                        <Button>
-                            Inscribirme
+                        <Button style={{ padding: '15px 0'}}>
+                            Quiero inscribirme
                         </Button>
                     </p>
                     <p>
-                        <Button>
+                        <Button style={{ padding: '15px 0'}}>
                             Conoce las bases
                         </Button>
                     </p>
                 </Col>
 
-                <Col>
+                <Col style={{ marginTop: '40px'}}>
                     <h1>
                         PREMIOS
                     </h1>
@@ -126,11 +122,13 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
+                 {/**
                 <Col sm={12}>
                     <CarouselHackJam2 />
                 </Col>
+                 */}
 
-                <Col sm={12}>
+                <Col sm={12} style={{ textAlign: 'center' }}>
                     {/**
                     <img src='/img/barqia-certificate.jpg' />
                     */}
@@ -177,7 +175,7 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
-                <Col sm={12}>
+                <Col sm={12} style={{ textAlign: 'center' }}>
                     <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                     <h1>
                         Comida y bebida
@@ -204,8 +202,8 @@ const DecemberHackJam = () => {
                     </h1>
                 </Col>
 
-                <Col sm={12}>
-                    <h1>
+                <Col sm={12} style={{ marginTop: '40px'}}>
+                    <h1 style={{ marginBottom: '30px'}}>
                         AGENDA
                     </h1>
 
@@ -307,19 +305,25 @@ const DecemberHackJam = () => {
                 </Col>
 
                 <Col>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26274.76979855363!2d-58.4024064!3d-34.5954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57dbce045cd%3A0x2704541ae686099a!2sParque%20Las%20Heras!5e0!3m2!1ses-419!2sar!4v1698859790060!5m2!1ses-419!2sar" width="600" height="450" style={{ border: '0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26274.76979855363!2d-58.4024064!3d-34.5954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57dbce045cd%3A0x2704541ae686099a!2sParque%20Las%20Heras!5e0!3m2!1ses-419!2sar!4v1698859790060!5m2!1ses-419!2sar" style={{ border: '0', height: '400px', width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <Button>
+                    <Button style={{ padding: '15px 0'}}>
                         Cómo llegar
                     </Button>
                 </Col>
 
-                <Col sm={12}>
-                    <a href=''>Aviso Legal y Cookies</a>
+                <Col sm={12} style={{ margin: '20px 0'}}>
+                    
+                    <h4>
+                        <a href=''>Aviso Legal y Cookies</a>
+                    </h4>
                 </Col>
 
-                <Col sm={12}>
-                    <a href=''>Privacidad</a>
+                <Col sm={12} style={{ marginBottom: '80px'}}>
+                    
+                    <h4>
+                        <a href=''>Privacidad</a>
+                    </h4>
                 </Col>
                 
             </Row>

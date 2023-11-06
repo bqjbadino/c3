@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const Countdown = () => {
     return (
-        <Container id='countdown'>
+        <Container id='countdown' style={{ position: 'relative', zIndex: '1'}}>
             <Row>
                 <Col xs={3} sm={3}>
                     <h1>

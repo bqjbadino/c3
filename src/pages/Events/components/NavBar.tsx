@@ -8,7 +8,7 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <Navbar className="bg-body-tertiary">
+    <Navbar className="bg-body-tertiary" style={{ position: 'relative', zIndex: '2'}}>
         <Container>
             <Navbar.Brand href="/Home">
                 <img src='/img/barqia-title.png' style={{ maxHeight: '65px'}} />

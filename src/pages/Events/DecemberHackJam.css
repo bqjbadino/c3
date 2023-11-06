@@ -12,6 +12,10 @@ h1, h2, p {
     padding: 0px 30px
 }
 
+h1, h4 {
+    text-align: center;
+}
+
 Button { 
     width: 100%;
 }
@@ -19,4 +23,6 @@ Button {
 .img-symbol {
     -webkit-filter: invert(1);
     filter: invert(1);
+    margin: 40px 0;
+    width: 100px;
 }
