@@ -16,7 +16,8 @@ h1, h4 {
     text-align: center;
 }
 
-Button { 
+button {
+    background-color: #0E7E8D !important;
     width: 100%;
 }
 
@@ -25,4 +26,13 @@ Button {
     filter: invert(1);
     margin: 40px 0;
     width: 100px;
+}
+
+strong {
+    color: #30A4B4;
+}
+
+.barqia-purple-text {
+    color: #EA37A3;
+    font-weight: bold;
 }

@@ -13,7 +13,7 @@ const NavBar = () => {
             <Navbar.Brand href="/Home">
                 <img src='/img/barqia-title.png' style={{ maxHeight: '65px'}} />
             </Navbar.Brand>
-            <Button style={{ float: 'right', padding: '16px' }}>
+            <Button style={{ background: '#30A4B4', float: 'right', padding: '16px' }}>
                   Inscríbite aquí
             </Button>
         </Container>

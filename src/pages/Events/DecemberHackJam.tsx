@@ -19,12 +19,10 @@ const DecemberHackJam = () => {
                     <NavBar />
                 </Col>
                 <Col sm={12} style={{ marginTop: '-135px', position: 'relative'}}>
-                    <video muted loop autoPlay style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}}>
-                        <source src='/videos/barqia-vr-5.mp4' />
-                    </video>
+                    <img src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
                     <div style={{ position: 'relative', marginTop: '-250px', zIndex: '1'}}>
                         <p>
-                            ¡Súmate al Barqia Sports Hack Jam 2023!
+                            ¡Súmate al <strong>Barqia Sports Hack Jam 2023</strong>!
                         </p>
                         <p>
                             Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
@@ -38,7 +36,7 @@ const DecemberHackJam = () => {
 
                 <Col sm={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
                     <p>
-                        Sports es una unidad de BARQIA pensada para instituciones deportivas y jugadores que quieran dar un paso hacia adelante en materia de tecnología y datos. A su vez, ofrecemos soluciones B2B a través de nuestro modelo de negocios SaaS (Software as a Service) en donde ofrecemos armar tu propia colección de NFT y mucho más.
+                        Sports es una unidad de <strong>BARQIA</strong> pensada para instituciones deportivas y jugadores que quieran dar un paso hacia adelante en materia de tecnología y datos. A su vez, ofrecemos soluciones B2B a través de nuestro modelo de negocios SaaS (Software as a Service) en donde ofrecemos armar tu propia colección de NFT y mucho más.
                     </p>
                     <p>
                         <strong>
@@ -71,9 +69,9 @@ const DecemberHackJam = () => {
                     <CarouselHackJam />
                 </Col>
                 
-                <Col style={{ marginTop: '40px'}}>
-                    <h1>
-                        ¡PARTICIPA EN LA HACK JAM!
+                <Col>
+                    <h1 style={{ margin: '40px 0'}}>
+                        <strong>¡PARTICIPA EN LA HACK JAM!</strong>
                     </h1>
                     <h2>
                         ¿Te atreves a desarrollar un videojuego en 48 horas?
@@ -90,14 +88,14 @@ const DecemberHackJam = () => {
                         </Button>
                     </p>
                     <p>
-                        <Button style={{ padding: '15px 0'}}>
+                        <Button style={{ backgroundColor: '#C3107C !important', padding: '15px 0'}}>
                             Conoce las bases
                         </Button>
                     </p>
                 </Col>
 
-                <Col style={{ marginTop: '40px'}}>
-                    <h1>
+                <Col>
+                    <h1 style={{ margin: '40px 0'}}>
                         PREMIOS
                     </h1>
                     <p>
@@ -134,22 +132,22 @@ const DecemberHackJam = () => {
                     */}
                     <img className='img-symbol' src='/img/barqia-symbol-certificate.png' />
                     <h1>
-                        Certificados de participación
+                        <span className='barqia-purple-text'>Certificados de participación</span>
                     </h1>
 
                     <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
                     <h1>
-                        Trofeos
+                        <span className='barqia-purple-text'>Trofeos</span>
                     </h1>
                     
                     <img className='img-symbol' src='/img/barqia-symbol-gift.png' />
                     <h1>
-                        Gift cards
+                        <span className='barqia-purple-text'>Gift cards</span>
                     </h1>
                 </Col>
 
                 <Col sm={12}>
-                    <h1>
+                    <h1 style={{ margin: '40px 0'}}>
                         <strong>¡VIVE UNA EXPERIENCIA A JAMMER REAL!</strong>
                     </h1>
 
@@ -178,27 +176,27 @@ const DecemberHackJam = () => {
                 <Col sm={12} style={{ textAlign: 'center' }}>
                     <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                     <h1>
-                        Comida y bebida
+                        <span className='barqia-purple-text'>Comida y bebida</span>
                     </h1>
 
                     <img className='img-symbol' src='/img/barqia-symbol-computer.png' />
                     <h1>
-                        Mesa de trabajo
+                        <span className='barqia-purple-text'>Mesa de trabajo</span>
                     </h1>
                     
                     <img className='img-symbol' src='/img/barqia-symbol-wifi.png' />
                     <h1>
-                        Conexión a internet
+                        <span className='barqia-purple-text'>Conexión a internet</span>
                     </h1>
 
                     <img className='img-symbol' src='/img/barqia-symbol-building.png' />
                     <h1>
-                        Zona de descanso
+                        <span className='barqia-purple-text'>Zona de descanso</span>
                     </h1>
 
                     <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' />
                     <h1>
-                        Kit de bienvenida
+                        <span className='barqia-purple-text'>Kit de bienvenida</span>
                     </h1>
                 </Col>
 
@@ -281,7 +279,7 @@ const DecemberHackJam = () => {
                 </Col>
 
                 <Col sm={12}>
-                    <h1>
+                    <h1 style={{ margin: '40px 0'}}>
                         <strong>
                             CÓMO LLEGAR
                         </strong>
@@ -292,7 +290,7 @@ const DecemberHackJam = () => {
                     </p>
 
                     <h2>
-                        Av.Principal, 3 - 28011 Madrid
+                        <strong>C. de Bailén, 41, 28005 Madrid</strong>
                     </h2>
 
                     <p>
@@ -305,7 +303,7 @@ const DecemberHackJam = () => {
                 </Col>
 
                 <Col>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26274.76979855363!2d-58.4024064!3d-34.5954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57dbce045cd%3A0x2704541ae686099a!2sParque%20Las%20Heras!5e0!3m2!1ses-419!2sar!4v1698859790060!5m2!1ses-419!2sar" style={{ border: '0', height: '400px', width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     <Button style={{ padding: '15px 0'}}>
                         Cómo llegar
@@ -319,7 +317,7 @@ const DecemberHackJam = () => {
                     </h4>
                 </Col>
 
-                <Col sm={12} style={{ marginBottom: '80px'}}>
+                <Col sm={12} style={{ marginBottom: '40px'}}>
                     
                     <h4>
                         <a href=''>Privacidad</a>
