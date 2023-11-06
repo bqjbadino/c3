@@ -1,7 +1,17 @@
-.calendly-badge-widget {
-    display: none;
+* {
+    color: white;
+    line-height: 1.5;
+    text-align: left;
 }
 
 img {
+    width: 100%;
+}
+
+h1, h2, p {
+    padding: 0px 30px
+}
+
+Button { 
     width: 100%;
 }

@@ -6,9 +6,10 @@ import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
-import NavBar from './components/NavBar.tsx';
-import CarouselHackJam from './components/CarouselHackJam.tsx';
-import CarouselHackJam2 from './components/CaruoselHackJam2.tsx';
+import NavBar from './Components/NavBar.tsx';
+import CarouselHackJam from './Components/CarouselHackJam.tsx';
+import CarouselHackJam2 from './Components/CaruoselHackJam2.tsx';
+import Countdown from './Components/Countdown/Countdown.tsx';
 
 const DecemberHackJam = () => {
     return (
@@ -17,17 +18,22 @@ const DecemberHackJam = () => {
                 <Col sm={12}>
                     <NavBar />
                 </Col>
-                <Col sm={12}>
+                <Col sm={12} style={{ marginTop: '-135px', position: 'relative'}}>
                     <video muted loop autoPlay style={{ width: '100%'}}>
                         <source src='/videos/barqia-vr-5.mp4' />
                     </video>
+                    <div style={{ marginTop: '-337px'}}>
+                        <p>
+                            ¡Súmate al Barqia Sports Hack Jam 2023!
+                        </p>
+                        <p>
+                            Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
+                        </p>
+                    </div>
+                </Col>
 
-                    <p>
-                        ¡Súmate al Barqia Sports Hack Jam 2023!
-                    </p>
-                    <p>
-                        Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
-                    </p>
+                <Col sm={12} style={{ zIndex: '1'}}>
+                    <Countdown />
                 </Col>
 
                 <Col sm={12}>
@@ -125,12 +131,15 @@ const DecemberHackJam = () => {
                 </Col>
 
                 <Col sm={12}>
-                <img src='/img/barqia-certificate.jpg' />
+                    {/**
+                    <img src='/img/barqia-certificate.jpg' />
+                    */}
+                    <img src='/img/barqia-certificate-2.png' />
                     <h1>
                         Certificados de participación
                     </h1>
 
-                    <img src='/img/barqia-trophy-2.jpg' />
+                    <img src='/img/barqia-trophy-3.png' />
                     <h1>
                         Trofeos
                     </h1>
@@ -140,6 +149,179 @@ const DecemberHackJam = () => {
                         Gift cards
                     </h1>
                 </Col>
+
+                <Col sm={12}>
+                    <h1>
+                        <strong>¡VIVE UNA EXPERIENCIA A JAMMER REAL!</strong>
+                    </h1>
+
+                    <p>
+                        HackJam abierto 24h
+                    </p>
+                    <p>
+                        <strong>¡Incluye comida y alojamiento para dormir!</strong>
+                    </p>
+
+                    <p>
+                        Durante los días 20, 21 y 22 de octubre las instalaciones de Madrid in Game habilitarán una zona de descanso para que los jammers podáis pasar allí las dos noches si lo necesitáis, y así vivir una experiencia completa con todos los participantes.
+                    </p>
+                    <p>
+                        <strong>Solo necesitarás:</strong> Saco de dormir, esterilla o colchón, productos de higiene personal, y ropa cómoda.
+                    </p>
+
+                    <p>
+                        ¡Ah! No te olvides de traer tu ordenador (hardware y software) y cualquier gadget que necesites para participar y desarrollar el videojuego durante el evento.
+                    </p>
+                    <p>
+                        ¡Del resto nos encargamos nosotros!
+                    </p>
+                </Col>
+
+                <Col sm={12}>
+                    <img src='/img/barqia-food-and-drink.jpg' />
+                    <h1>
+                        Comida y bebida
+                    </h1>
+
+                    <img src='/img/barqia-workstation.jpg' />
+                    <h1>
+                        Mesa de trabajo
+                    </h1>
+                    
+                    <img src='/img/barqia-internet.jpg' />
+                    <h1>
+                        Conexión a internet
+                    </h1>
+
+                    <img src='/img/barqia-rest.jpg' />
+                    <h1>
+                        Zona de descanso
+                    </h1>
+
+                    <img src='/img/barqia-welcome-kit-2.jpg' />
+                    <h1>
+                        Kit de bienvenida
+                    </h1>
+                </Col>
+
+                <Col sm={12}>
+                    <h1>
+                        AGENDA
+                    </h1>
+
+                    <h2>
+                        <strong>
+                            VIERNES
+                        </strong>
+                    </h2>
+
+                    <ul>
+                        <li>
+                            <strong>(Horario)</strong> Apertura y registro
+                        </li>
+
+                        <li>
+                            <strong>(Horario)</strong> Bienvenida y sesión de inauguración
+                        </li>
+
+                        <li>
+                            <strong>(Horario)</strong> Networking y creación de equipos
+                        </li>
+
+                        <li>
+                            <strong>(Horario)</strong> ¡Que empiece el juego!
+                        </li>
+                    </ul>
+                </Col>
+
+                <Col>
+                    <h2>
+                        <strong>
+                            SÁBADO
+                        </strong>
+                    </h2>
+
+                    <ul>
+                        <li>
+                            ¡A segir desarrollando el juego!
+                        </li>
+
+                        <li>
+                            Habrá <strong>mentores</strong> expertos durante toda la jornada
+                        </li>
+
+                        <li>
+                            Torneos y muchas <strong>sorpresas</strong>
+                        </li>
+                    </ul>
+                </Col>
+
+                <Col>
+                    <h2>
+                        <strong>
+                            DOMINGO
+                        </strong>
+                    </h2>
+
+                    <ul>
+                        <li>
+                            <strong>(Horario)</strong> Entrega del videojuego
+                        </li>
+
+                        <li>
+                            <strong>(Horario)</strong> Bienvenida y sesión de inauguración
+                        </li>
+
+                        <li>
+                            <strong>(Horario)</strong> Networking y creación de equipos
+                        </li>
+
+                        <li>
+                            <strong>(Horario)</strong> ¡Que empiece el juego!
+                        </li>
+                    </ul>
+                </Col>
+
+                <Col sm={12}>
+                    <h1>
+                        <strong>
+                            CÓMO LLEGAR
+                        </strong>
+                    </h1>
+
+                    <p>
+                        El evento tendrá lugar en el Campus del videojuego de Madrid in Game, que se ubica en la Casa de Campo y cuenta con 3 pabellones.
+                    </p>
+
+                    <h2>
+                        Av.Principal, 3 - 28011 Madrid
+                    </h2>
+
+                    <p>
+                        Llega al Campus con las líneas de bus <strong>EMT 31, 33, 36 Y 39,</strong> Paradas <strong>879 y 880.</strong> Las estaciones de Metro más cercanas son <strong>Alto Extremadura y Lago.</strong>
+                    </p>
+
+                    <p>
+                        Madrid in Game también ofrece el uso de su parking durante los tres días.
+                    </p>
+                </Col>
+
+                <Col>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26274.76979855363!2d-58.4024064!3d-34.5954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57dbce045cd%3A0x2704541ae686099a!2sParque%20Las%20Heras!5e0!3m2!1ses-419!2sar!4v1698859790060!5m2!1ses-419!2sar" width="600" height="450" style={{ border: '0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <Button>
+                        Cómo llegar
+                    </Button>
+                </Col>
+
+                <Col sm={12}>
+                    <a href=''>Aviso Legal y Cookies</a>
+                </Col>
+
+                <Col sm={12}>
+                    <a href=''>Privacidad</a>
+                </Col>
+                
             </Row>
             
 
