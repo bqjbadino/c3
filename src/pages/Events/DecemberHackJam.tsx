@@ -93,7 +93,7 @@ const DecemberHackJam = () => {
                     
                     <Col lg={12} style={{ zIndex: '1' }}>
                         <h1 style={{ margin: '40px 0'}}>
-                            <strong>¡PARTICIPA EN LA HACK JAM!</strong>
+                            <strong>¡PARTICIPA EN LA XR HACKATHON SPORTS 2023!</strong>
                         </h1>
                         <h2>
                             ¿Te atreves a desarrollar un videojuego en 48 horas?
