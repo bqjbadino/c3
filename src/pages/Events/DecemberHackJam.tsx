@@ -13,14 +13,26 @@ import Countdown from './components/Countdown/Countdown.tsx';
 
 const DecemberHackJam = () => {
     return (
-        <Container>
+        <Container id='december-hack-jam' style={{ background: 'transparent' }}>
+            <img className='hide-on-mobile' src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
             <Row>
                 <Col sm={12} lg={12}>
                     <NavBar />
                 </Col>
+
+                <Col className='hide-on-mobile' style={{ position: 'relative'}} >
+                    <img src='/img/barqia-notebook-vr-user-field.png' />
+                    <img src='/img/barqia-vrheadset-and-joystick.png' style={{ position: 'absolute', top: '0', left: '0', width: '300px'}} />
+                    <img src='/img/barqia-vr-character.png' style={{ position: 'absolute', right: '0', bottom: '0', width: '300px'}} />
+                </Col>
+
                 <Col sm={12} lg={12} style={{ marginTop: '-135px', position: 'relative'}}>
                     <img className='hide-on-desktop' src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
-                    <div style={{ position: 'relative', marginTop: '-250px', zIndex: '1'}}>
+                    <h1 className='neon' style={{ fontSize: '75px', marginTop: '-80px' }}>SPORTS JAM</h1>
+                </Col>
+
+                <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
+                    <div style={{ position: 'relative', zIndex: '1'}}>
                         <p>
                             ¡Súmate al <strong>Barqia Sports Hack Jam 2023</strong>!
                         </p>
@@ -28,29 +40,39 @@ const DecemberHackJam = () => {
                             Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
                         </p>
                     </div>
+                    <p>
+                        El próximo 1, 2 y 3 de Diciembre dará comienzo la <strong>I Edición del Sports Jam</strong>, que reunirá al mejor talento gamer en sus diferentes disciplinas, y a las grandes empresas colaboradoras, para <span style={{ fontWeight: 'bold' }}>crear videojuegos profesionales que mejoren y potencien la experiencia de los fanáticos,más allá de las gradas.</span>
+                    </p>
+
+                    <p>
+                        Este evento se ha creado para desarrollar y dar visibilidad a <span style={{ fontWeight: 'bold' }}>ideas
+                        disruptivas e innovadoras de alto impacto en la industria del deporte</span>,
+                        del videojuego y la programación, buscando impulsar el talento gamer,
+                        <span style={{ fontWeight: 'bold' }}>creando oportunidades, nuevos proyectos y tecnologías.</span>
+                    </p>
+
+                    <h2>
+                        <strong>
+                            «Diseñando el futuro de las experiencias deportivas»
+                        </strong>
+                    </h2>
+
+                    <p>
+                        Sports Jam, es un maratón anual de creación de videojuegos, donde por
+                        equipos, crearán un juego que se ajuste a un tema común, en solo 48
+                        horas.
+                    </p>
+
+                    <p>
+                        Al final, cada equipo presentará su juego ante un jurado, y tras la
+                        votación de los expertos, de los mismos participantes y de los
+                        fanáticos/asistentes que acudan, se entregarán premios a los mejores
+                        juegos y mejores talentos.
+                    </p>
                 </Col>
 
-                <Col sm={12} lg={12}>
+                <Col sm={12} lg={12} style={{ zIndex: '1'}} >
                     <Countdown />
-                </Col>
-
-                <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
-                    <p>
-                        Sports es una unidad de <strong>BARQIA</strong> pensada para instituciones deportivas y jugadores que quieran dar un paso hacia adelante en materia de tecnología y datos. A su vez, ofrecemos soluciones B2B a través de nuestro modelo de negocios SaaS (Software as a Service) en donde ofrecemos armar tu propia colección de NFT y mucho más.
-                    </p>
-                    <p>
-                        <strong>
-                            Ofrecemos la producción de contenidos inmersivos como tour virtuales, entrevistas y acciones que permiten al espectador sentirse en el lugar de los hechos.
-                        </strong>
-                    </p>
-                    <p>
-                        Los clubes o instituciones que deseen armar su colección de NFT como una nueva forma de monetización, además podrán obtener capacitaciones, como así también serán partícipes del proyecto de la WRM en todas sus etapas.
-                    </p>
-                    <p>
-                        <strong>
-                            #BarqiaSportsHackJam
-                        </strong>
-                    </p>
                 </Col>
 
                 {/**
@@ -65,11 +87,11 @@ const DecemberHackJam = () => {
                 </Col>
                  */}
 
-                <Col className='hide-on-desktop' sm={12} lg={12}>
+                <Col className='hide-on-desktop' sm={12} lg={12} style={{ zIndex: '1'}} >
                     <CarouselHackJam />
                 </Col>
                 
-                <Col lg={12}>
+                <Col lg={12} style={{ zIndex: '1' }}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>¡PARTICIPA EN LA HACK JAM!</strong>
                     </h1>
@@ -94,27 +116,42 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
-                <Col lg={12}>
+                <Col lg={12} style={{ zIndex: '1'}} >
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>PREMIOS</strong>
                     </h1>
                     <p>
-                        El (fecha) cada equipo presentará su juego ante un jurado de expertos. Tras su valoración y la votación de los mismos participantes, se entregarán premios en función de las siguientes categorías:
+                        <span style={{ fontWeight: 'bold' }}>Premios:</span>
                         <ul>
                             <li>
-                                Mejor desarrollo de Realidad Aumentada
+                                Premio General: mejor implementación demostrando claramente las posibilidades de las nuevas tecnologías.
                             </li>
                             <li>
-                                Mejor juego
+                                Premio Juegos Inmersivos
                             </li>
                             <li>
-                                Mejor aplicación/multiplataforma
+                                Premio Gaming
                             </li>
                             <li>
-                                Mejor integración de propuesta
+                                Premio Aplicaciones
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <span style={{ fontWeight: 'bold' }}>Diplomas individuales:</span>
+                        <ul>
+                            <li>
+                                Diplomas mejor desarrollador
                             </li>
                             <li>
-                                Mejor proyecto
+                                Diploma mejor modelador
+                            </li>
+                            <li>
+                                Diploma mejor compañero
+                            </li>
+                            <li>
+                                Diploma más creativo
                             </li>
                         </ul>
                     </p>
@@ -126,7 +163,7 @@ const DecemberHackJam = () => {
                 </Col>
                  */}
 
-                <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
+                <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                     {/**
                     <img src='/img/barqia-certificate.jpg' />
                     */}
@@ -146,7 +183,7 @@ const DecemberHackJam = () => {
                     </h1>
                 </Col>
 
-                <Col sm={12} lg={12}>
+                <Col sm={12} lg={12} style={{ zIndex: '1' }}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>¡VIVE UNA EXPERIENCIA A JAMMER REAL!</strong>
                     </h1>
@@ -173,7 +210,7 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
-                <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
+                <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                     <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                     <h1>
                         <span className='barqia-purple-text'>Comida y bebida</span>
@@ -200,7 +237,7 @@ const DecemberHackJam = () => {
                     </h1>
                 </Col>
 
-                <Col sm={12} lg={12} style={{ marginTop: '40px'}}>
+                <Col sm={12} lg={12} style={{ marginTop: '40px', zIndex: '1' }}>
                     <h1 style={{ marginBottom: '30px'}}>
                         <strong>AGENDA</strong>
                     </h1>
@@ -230,7 +267,7 @@ const DecemberHackJam = () => {
                     </ul>
                 </Col>
 
-                <Col lg={12}>
+                <Col lg={12} style={{ zIndex: '1' }}>
                     <h2>
                         <strong>
                             SÁBADO
@@ -252,7 +289,7 @@ const DecemberHackJam = () => {
                     </ul>
                 </Col>
 
-                <Col lg={12}>
+                <Col lg={12} style={{ zIndex: '1' }}>
                     <h2>
                         <strong>
                             DOMINGO
@@ -278,7 +315,7 @@ const DecemberHackJam = () => {
                     </ul>
                 </Col>
 
-                <Col sm={12} lg={12}>
+                <Col sm={12} lg={12} style={{ zIndex: '1' }}>
                     <h1 style={{ margin: '40px 0'}}>
                         <strong>
                             CÓMO LLEGAR
@@ -302,7 +339,7 @@ const DecemberHackJam = () => {
                     </p>
                 </Col>
 
-                <Col>
+                <Col style={{ zIndex: '1' }}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     <Button style={{ padding: '15px 0'}}>
@@ -310,14 +347,14 @@ const DecemberHackJam = () => {
                     </Button>
                 </Col>
 
-                <Col sm={12} lg={12} style={{ margin: '20px 0'}}>
+                <Col sm={12} lg={12} style={{ margin: '20px 0', zIndex: '1' }}>
                     
                     <h4>
                         <a href=''>Aviso Legal y Cookies</a>
                     </h4>
                 </Col>
 
-                <Col sm={12} lg={12} style={{ marginBottom: '40px'}}>
+                <Col sm={12} lg={12} style={{ marginBottom: '40px', zIndex: '1'}}>
                     
                     <h4>
                         <a href=''>Privacidad</a>

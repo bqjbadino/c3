@@ -51,11 +51,11 @@ const AboutUs = () => {
                 </Col>
                 <Col sm={12} md={6} lg={3}>
                     <TeamMemberCard
-                        image='img/barqia-juan-pablo-badino.png'
-                        name='Juan Pablo Badino'
-                        title='CIO'
-                        degree='Software Development Specialist'
-                        description='MERN stack (MongoDB, Express.js, ReactJS, Node.js) developer.'
+                        image='img/.png'
+                        name='David del Saz'
+                        title='CFO'
+                        degree='Double degree in Business Administration and Law'
+                        description='Co-Founder of Padel Fantasy. Fantasy game app from the world of sports.'
                     />
                 </Col>
                 <Col style={{position: 'relative'}}>
