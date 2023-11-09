@@ -20,10 +20,6 @@ const DecemberHackJam = () => {
                 
                 <img className='hide-on-mobile' src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
                 <Row>
-                    <Col sm={12} lg={12}>
-                    
-                    </Col>
-
                     <Col className='hide-on-mobile' style={{ position: 'relative'}} >
                         <img src='/img/barqia-notebook-vr-user-field.png' />
                         <img src='/img/barqia-vrheadset-and-joystick.png' style={{ position: 'absolute', top: '0', left: '0', width: '300px'}} />
@@ -32,13 +28,13 @@ const DecemberHackJam = () => {
 
                     <Col sm={12} lg={12} style={{ marginTop: '-135px', position: 'relative'}}>
                         <img className='hide-on-desktop' src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
-                        <h1 className='neon' style={{ fontSize: '75px', marginTop: '-80px' }}>SPORTS JAM</h1>
+                        <h1 className='neon hide-on-mobile' style={{ fontSize: '75px', marginTop: '-80px' }}>SPORTS JAM</h1>
                     </Col>
 
                     <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
                         <div style={{ position: 'relative', zIndex: '1'}}>
                             <p>
-                                ¡Súmate al <strong>Barqia Sports Hack Jam 2023</strong>!
+                                ¡Súmate al <strong>XR HACKATHON SPORTS 2023</strong>!
                             </p>
                             <p>
                                 Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
@@ -91,7 +87,7 @@ const DecemberHackJam = () => {
                     </Col>
                     */}
 
-                    <Col className='hide-on-desktop' sm={12} lg={12} style={{ zIndex: '1'}} >
+                    <Col sm={12} lg={12} style={{ zIndex: '1'}} >
                         <CarouselHackJam />
                     </Col>
                     
@@ -200,7 +196,7 @@ const DecemberHackJam = () => {
                         </p>
 
                         <p>
-                            Durante los días 20, 21 y 22 de octubre las instalaciones de Madrid in Game habilitarán una zona de descanso para que los jammers podáis pasar allí las dos noches si lo necesitáis, y así vivir una experiencia completa con todos los participantes.
+                            Durante los días 1, 2 y 3 de diciembre en las instalaciones de () habilitarán una zona de descanso para que los jammers podáis pasar allí las dos noches si lo necesitáis, y así vivir una experiencia completa con todos los participantes.
                         </p>
                         <p>
                             <strong>Solo necesitarás:</strong> Saco de dormir, esterilla o colchón, productos de higiene personal, y ropa cómoda.

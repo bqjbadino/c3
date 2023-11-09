@@ -4,14 +4,12 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const CarouselHackJam = () => {
   return (
-    <Carousel data-bs-theme="light">
+    <Carousel data-bs-theme="light" style={{ margin: 'auto' }}>
       <Carousel.Item>
-        {/**
-        <video muted loop autoPlay style={{ width: '100%'}}>
+        <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
             <source src='/videos/barqia-vr-7.mp4' />
         </video>
-         */}
-        <img src='/img/barqia-vr-7.JPG' />
+        <img className='hide-on-desktop' src='/img/barqia-vr-7.JPG' />
         <Carousel.Caption>
           {/**
           <h5>First slide label</h5>
@@ -20,12 +18,10 @@ const CarouselHackJam = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/**
-        <video muted loop autoPlay style={{ width: '100%'}}>
+        <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
             <source src='/videos/barqia-ai-2.mp4' />
         </video>
-         */}
-        <img src='/img/barqia-ai-2.JPG' />
+        <img className='hide-on-desktop' src='/img/barqia-ai-2.JPG' />
         <Carousel.Caption>
           {/**
           <h5>Second slide label</h5>
@@ -34,12 +30,10 @@ const CarouselHackJam = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/**
-        <video muted loop autoPlay style={{ width: '100%'}}>
+        <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
             <source src='/videos/barqia-vr-6.mp4' />
         </video>
-         */}
-        <img src='/img/barqia-vr-6.JPG' />
+        <img className='hide-on-desktop' src='/img/barqia-vr-6.JPG' />
         <Carousel.Caption>
           {/**
           <h5>Third slide label</h5>
