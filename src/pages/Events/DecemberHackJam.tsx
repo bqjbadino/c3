@@ -32,8 +32,10 @@ const DecemberHackJam = () => {
                         {/**
                         <img className='hide-on-desktop' src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
                         */}
-                        <img src='/img/barqia-hackjam-2.jpg' />
+                        <img className='hide-on-mobile' src='/img/barqia-hackjam-2.jpg' />
+                        <img className='hide-on-desktop' src='/img/barqia-hackjam-2.jpg' style={{ marginTop: '135px'}} />
                         <h1 className='neon hide-on-mobile' style={{ fontSize: '75px', marginTop: '-250px' }}>SPORTS JAM</h1>
+                        <h1 className='neon hide-on-desktop' style={{ fontSize: '30px', marginTop: '-70px' }}>SPORTS JAM</h1>
                     </Col>
 
                     <Col sm={12} lg={12} style={{ zIndex: '1'}} >

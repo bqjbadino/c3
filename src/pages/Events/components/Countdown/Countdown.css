@@ -7,3 +7,10 @@
 #countdown p {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    #countdown {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+}
