@@ -42,11 +42,11 @@ const AboutUs = () => {
                 </Col>
                 <Col sm={12} md={6} lg={3}>
                     <TeamMemberCard
-                        image='img/barqia-diego-gomez.jpg'
+                        image='img/barqia-diego-gomez.png'
                         name='Diego Gómez'
                         title='CTO'
-                        degree='Graduate in '
-                        description='Specialist'
+                        degree='Degree in Information Systems'
+                        description='Project Manager Specialist of Interactive Space in VR/AR'
                     />
                 </Col>
                 <Col sm={12} md={6} lg={3}>
