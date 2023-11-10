@@ -40,7 +40,7 @@ const AboutUs = () => {
                         description='Co-Founder of Padel Fantasy. Fantasy game app from the world of sports.'
                     />
                 </Col>
-                <Col sm={12} md={6} lg={3}>
+                <Col sm={12} md={6} lg={3} >
                     <TeamMemberCard
                         image='img/barqia-diego-gomez.png'
                         name='Diego Gómez'
@@ -49,7 +49,7 @@ const AboutUs = () => {
                         description='Project Manager Specialist of Interactive Space in VR/AR'
                     />
                 </Col>
-                <Col sm={12} md={6} lg={3}>
+                <Col sm={12} md={6} lg={3} >
                     <TeamMemberCard
                         image='img/.png'
                         name='David del Saz'
