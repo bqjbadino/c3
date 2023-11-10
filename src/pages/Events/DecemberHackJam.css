@@ -64,7 +64,7 @@
 
 @media only screen and (min-width: 600px) {
     #december-hack-jam * {
-        text-align: center;
+        text-align: justify;
     }
 
     #december-hack-jam button {
@@ -72,7 +72,6 @@
     }
 
     #december-hack-jam ul {
-        list-style-type: none;
         margin: 40px 0;
     }
         #december-hack-jam ul li {

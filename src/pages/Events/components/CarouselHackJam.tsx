@@ -6,10 +6,13 @@ const CarouselHackJam = () => {
   return (
     <Carousel data-bs-theme="light" style={{ margin: 'auto' }}>
       <Carousel.Item>
+        {/**
         <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
             <source src='/videos/barqia-vr-7.mp4' />
         </video>
+         */}
         <img className='hide-on-desktop' src='/img/barqia-vr-7.JPG' />
+        <img className='hide-on-mobile' src='/img/barqia-sports-jam-1.jpg' />
         <Carousel.Caption>
           {/**
           <h5>First slide label</h5>
@@ -18,10 +21,13 @@ const CarouselHackJam = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+        {/**
         <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
             <source src='/videos/barqia-ai-2.mp4' />
         </video>
+         */}
         <img className='hide-on-desktop' src='/img/barqia-ai-2.JPG' />
+        <img className='hide-on-mobile' src='/img/barqia-sports-jam-2.jpg' />
         <Carousel.Caption>
           {/**
           <h5>Second slide label</h5>
@@ -30,10 +36,13 @@ const CarouselHackJam = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+        {/**
         <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
             <source src='/videos/barqia-vr-6.mp4' />
         </video>
+        */}
         <img className='hide-on-desktop' src='/img/barqia-vr-6.JPG' />
+        <img className='hide-on-mobile' src='/img/barqia-sports-jam-3.jpg' />
         <Carousel.Caption>
           {/**
           <h5>Third slide label</h5>
