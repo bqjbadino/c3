@@ -39,7 +39,7 @@
         }
 
 @media only screen and (min-width: 600px) {
-    .offcanvas-body, .navBar-nav, .navBar-toggle {
+    #offcanvasNavbar-expand-xxl, .offcanvas-body, .navBar-nav, .navBar-toggle {
         display: none;
     }
 }
