@@ -21,24 +21,24 @@ const AboutUs = () => {
             <Row>
                 <Col style={{background: 'rgba(0, 0, 0, 0.7)', fontSize: '1.3em', lineHeight: '2.3em' }} >
                     <VideoGlobe/>
-                        <h1 style={{fontWeight: 'bold', margin: '30px 0', textAlign: 'center'}}>Our mission</h1>
+                        <h1>Our mission</h1>
                         
                         <p>Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.</p>
 
                         <p>We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.</p>
                         
-                        <h1 style={{fontWeight: 'bold', margin: '30px 0', textAlign: 'center'}}>Our story</h1>
+                        <h1>Our story</h1>
                         <p>Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of ​​founding Barqia Sports, a comprehensive fan engagement platform.</p>
                         
                         <p>We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.</p>
                         
-                        <h1 style={{fontWeight: 'bold', margin: '30px 0', textAlign: 'center'}}>Our vision</h1>
+                        <h1>Our vision</h1>
                         <p>To be the leading immersive fan engagement platform where all sports, clubs, athletes and fans from around the world meet with the aim of creating a deeper and more realistic relationship between all parties.</p>
                 </Col>
             </Row>
 
-            <Row id="team-cards" style={{color: 'white', position: 'relative', zIndex: '1', }}>    
-                <h1 style={{ textAlign: 'center' }}>The Team:</h1>
+            <Row id="team-cards">    
+                <h1>The Team:</h1>
                 <Col sm={12} md={6} lg={3}>
                     <TeamMemberCard
                         image='img/barqia-felipe-barquin.jfif'

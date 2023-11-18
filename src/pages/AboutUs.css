@@ -3,9 +3,12 @@
 }
 
 #about-us p {
+    margin-bottom: 40px;
     word-spacing: 12px;
 }
 
 #about-us h1 {
     font-size: 96px;
+    margin-bottom: 40px;
+    text-align: center;
 }
