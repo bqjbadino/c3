@@ -2,6 +2,10 @@
     --bs-card-bg: rgba(255, 255, 255, 0.8);
 }
 
+#about-us p {
+    word-spacing: 12px;
+}
+
 #about-us h1 {
     font-size: 96px;
 }
