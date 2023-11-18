@@ -2,13 +2,21 @@
     --bs-card-bg: rgba(255, 255, 255, 0.8);
 }
 
-#about-us p {
+#about-us {
     margin-bottom: 40px;
+}
+
+#about-us #about-us-text p {
+    color: white;
+    margin-bottom: 40px;
+    position: relative;
     word-spacing: 12px;
 }
 
 #about-us h1 {
+    color: white;
     font-size: 96px;
     margin-bottom: 40px;
+    position: relative;
     text-align: center;
 }

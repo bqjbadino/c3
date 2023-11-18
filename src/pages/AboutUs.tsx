@@ -18,7 +18,7 @@ import VideoWhatWeDo from '../components/VideoWhatWeDo/VideoWhatWeDo.tsx';
 const AboutUs = () => {
     return (
         <Container id='about-us'>
-            <Row>
+            <Row id='about-us-text'>
                 <Col style={{background: 'rgba(0, 0, 0, 0.7)', fontSize: '1.3em', lineHeight: '2.3em' }} >
                     <VideoGlobe/>
                         <h1>Our mission</h1>
@@ -38,7 +38,7 @@ const AboutUs = () => {
             </Row>
 
             <Row id="team-cards">    
-                <h1>The Team:</h1>
+                <h1>The Team</h1>
                 <Col sm={12} md={6} lg={3}>
                     <TeamMemberCard
                         image='img/barqia-felipe-barquin.jfif'
@@ -69,7 +69,7 @@ const AboutUs = () => {
                 </Col>
                 <Col sm={12} md={6} lg={3} >
                     <TeamMemberCard
-                        image='img/.png'
+                        image='img/barqia-padel-fantasy-logo.png'
                         name='David del Saz'
                         title='CFO'
                         degree='Double degree in Business Administration and Law'

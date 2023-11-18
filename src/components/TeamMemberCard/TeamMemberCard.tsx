@@ -8,12 +8,13 @@ const TeamMemberCard = (props) => {
             <Card.Img variant="top" src={props.image} style={{
                 borderRadius: '100%', 
                 margin: 'auto', 
-                marginTop: '20px', 
+                marginTop: '20px',
+                objectFit: 'cover',
                 width: '90%'
             }}/>
             <Card.Body>
                 <Card.Title>
-                    <h3 style={{fontSize: '25px', fontWeight: 'bold'}}>{props.name}</h3>
+                    <h3 style={{fontSize: '23px', fontWeight: 'bold'}}>{props.name}</h3>
                 </Card.Title>
                 <Card.Text>
                     <h5>
