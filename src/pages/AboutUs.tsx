@@ -19,7 +19,7 @@ const AboutUs = () => {
     return (
         <Container id='about-us'>
             <Row id='about-us-text'>
-                <Col style={{background: 'rgba(0, 0, 0, 0.7)', fontSize: '1.3em', lineHeight: '2.3em' }} >
+                <Col style={{ background: 'rgba(0, 0, 0, 0.7)' }} >
                     <VideoGlobe/>
                         <h1>Our mission</h1>
                         

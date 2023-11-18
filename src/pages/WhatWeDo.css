@@ -1,12 +1,8 @@
-.card {
-    --bs-card-bg: rgba(255, 255, 255, 0.8);
-}
-
-#about-us {
+#what-we-do {
     margin-bottom: 40px;
 }
 
-#about-us #about-us-text p {
+#what-we-do #what-we-do-text p {
     color: white;
     font-size: '1.3em';
     line-height: '2.3em';
@@ -15,7 +11,7 @@
     word-spacing: 12px;
 }
 
-#about-us h1 {
+#what-we-do h1 {
     color: white;
     font-size: 96px;
     margin-bottom: 40px;
