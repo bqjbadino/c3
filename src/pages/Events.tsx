@@ -24,8 +24,8 @@ const Events = () => {
             <a className='neon' href='/Events/DecemberHackJam'
                 style={{
                     position: 'absolute',
-                    top: '480px',
-                    left: '360px',
+                    top: '430px',
+                    left: '295px',
                     fontSize: '40px'
                 }}>
                     DICIEMBRE 2023 - Sitio web del evento
