@@ -4,7 +4,7 @@ import './VideoKick.css';
 
 const VideoKick = () => {
     return (
-        <video id="video-kick" autoPlay muted loop style={{position: 'absolute', top: '0', left: '0', zIndex: '0'}}>
+        <video id="video-kick" autoPlay muted loop>
             <source src="videos/kick.mp4" type="video/mp4" />
         </video>
     )
