@@ -10,6 +10,7 @@ import NavBar from './components/NavBar.tsx';
 import CarouselHackJam from './components/CarouselHackJam.tsx';
 import CarouselHackJam2 from './components/CaruoselHackJam2.tsx';
 import Countdown from './components/Countdown/Countdown.tsx';
+import Footer from '../../components/Footer/Footer.tsx';
 
 const DecemberHackJam = () => {
     return (
@@ -82,7 +83,7 @@ const DecemberHackJam = () => {
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '0 10px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Trofeos</span>
@@ -104,29 +105,29 @@ const DecemberHackJam = () => {
                     <Col lg={12} style={{ zIndex: '1'}} >
                         <Row>
                             <Col lg={6}>
-                                <h2 style={{ margin: '40px 0'}}>
-                                    <strong>Distinciones</strong>
+                                <h2 style={{ margin: '40px 0', textAlign: 'left'}}>
+                                    <strong>Premios</strong>
                                 </h2>
                                 <p>
                                     <ul>
                                         <li>
-                                            Distinción General: mejor implementación demostrando claramente las posibilidades de las nuevas tecnologías.
+                                            Premio General: mejor implementación demostrando claramente las posibilidades de las nuevas tecnologías.
                                         </li>
                                         <li>
-                                            Distinción Juegos Inmersivos
+                                            Premio Juegos Inmersivos
                                         </li>
                                         <li>
-                                            Distinción Gaming
+                                            Premio Gaming
                                         </li>
                                         <li>
-                                            Distinción Aplicaciones
+                                            Premio Aplicaciones
                                         </li>
                                     </ul>
                                 </p>
                             </Col>
 
                             <Col lg={6}>
-                                <h2 style={{ margin: '40px 0'}}>
+                                <h2 style={{ margin: '40px 0', textAlign: 'left'}}>
                                     <strong>Menciones individuales</strong>
                                 </h2>
                                 <p>
@@ -151,10 +152,10 @@ const DecemberHackJam = () => {
 
                     <Col sm={12} lg={12} style={{ zIndex: '1' }}>
                         <h1 className='neon' style={{ margin: '40px 0'}}>
-                            <strong>¡VIVE UNA EXPERIENCIA A JAMMER REAL!</strong>
+                            <strong>¡VIVE UNA EXPERIENCIA JAMMER REAL!</strong>
                         </h1>
 
-                        <p>
+                        <p style={{ marginTop: '70px'}}>
                             SportsJam abierto 24h
                         </p>
                         <p>
@@ -363,15 +364,13 @@ const DecemberHackJam = () => {
                     </Col>
 
                     <Col sm={12} lg={12} style={{ marginBottom: '40px', zIndex: '1'}}>
-                        
                         <h4>
                             <a href=''>Privacidad</a>
                         </h4>
                     </Col>
-                    
                 </Row>
             </Container>
-            
+            <Footer />
         </div>
     )
 }
