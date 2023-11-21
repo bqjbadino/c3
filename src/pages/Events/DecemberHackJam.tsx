@@ -15,42 +15,27 @@ const DecemberHackJam = () => {
     return (
         <div id='december-hack-jam'>
             <NavBar />
+            <img className='hide-on-mobile' src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', opacity: '0.7', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
             <div>
                 <img className='hide-on-mobile' src='/img/barqia-sports-jam.jpg' style={{ position: 'absolute', width: '100%', zIndex: '1' }} />
             </div>
             <Container id='december-hack-jam-text' style={{ background: 'transparent' }}>
-                
                 <h1 style={{ background: 'rgba(0, 0, 0, 0.7)', borderRadius: '10px', fontWeight: 'bold', marginTop: '30px', padding: '15px 0', textAlign: 'center', zIndex: '1' }}>
                     <span style={{ fontSize: '45px' }}>¡Súmate al <strong>XR HACKATHON SPORTS 2023</strong>!</span>
                     <hr />
                     <Countdown />
                 </h1>
                 
-                
-
-                <img className='hide-on-mobile' src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
                 <Row>
-                    {/**
-                    <Col className='hide-on-mobile' style={{ position: 'relative'}} >
-                        <img src='/img/barqia-notebook-vr-user-field.png' />
-                        <img src='/img/barqia-vrheadset-and-joystick.png' style={{ position: 'absolute', top: '0', left: '0', width: '300px'}} />
-                        <img src='/img/barqia-vr-character.png' style={{ position: 'absolute', right: '0', bottom: '0', width: '300px'}} />
-                    </Col>
-                     */}
 
                     <Col sm={12} lg={12} style={{ marginTop: '-135px', position: 'relative'}}>
-                        {/**
-                        <img className='hide-on-desktop' src='/img/barqia-vr-5.jpg' style={{ filter: 'opacity(60%)', position: 'relative', width: '100%', zIndex: '0'}} />
-                        */}
-                        
                         <img className='hide-on-desktop' src='/img/barqia-hackjam-2.jpg' style={{ marginTop: '135px'}} />
-                        
                     </Col>
                     
 
                     <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
-                        <div style={{ position: 'relative', zIndex: '1'}}>
-                            <h2 className='neon hide-on-mobile' style={{ fontSize: '75px', zIndex: '1'}}>SPORTS JAM</h2>
+                        <div style={{ display: 'block', position: 'relative', zIndex: '1'}}>
+                            <h2 className='neon hide-on-mobile' style={{ fontSize: '75px', marginTop: '20px', zIndex: '1'}}>SPORTS JAM</h2>
                             <h2 className='neon hide-on-desktop' style={{ fontSize: '30px', marginTop: '-70px' }}>SPORTS JAM</h2>
                             <p>
                                 Transformando el mundo del deporte con inteligencia artificial y realidad virtual.

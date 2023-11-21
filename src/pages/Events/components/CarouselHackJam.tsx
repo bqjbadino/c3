@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const CarouselHackJam = () => {
   return (
-    <Carousel data-bs-theme="light" style={{ margin: 'auto' }}>
+    <Carousel data-bs-theme="light" style={{ margin: 'auto', marginBottom: '60px' }}>
       <Carousel.Item>
         {/**
         <video className='hide-on-mobile' muted loop autoPlay style={{ width: '50%'}}>
