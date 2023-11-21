@@ -10,6 +10,7 @@ import VideoWhatWeDo from '../components/VideoWhatWeDo/VideoWhatWeDo.tsx'
 const WhatWeDo = () => {
     return (
         <Container id='what-we-do'>
+            <VideoWhatWeDo />
             <Row id='what-we-do-text'>
                 <h1>What we do</h1>
 

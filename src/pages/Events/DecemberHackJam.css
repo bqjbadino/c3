@@ -18,10 +18,13 @@
 }
 
 #december-hack-jam button {
-    background-color: #612B73 !important;
+    background: rgba(48, 164, 180, 0.7);
     text-align: center;
     width: 100%;
 }
+    #december-hack-jam button:hover {
+        background: rgba(48, 164, 180, 1);
+    }
 
 #december-hack-jam .img-symbol {
     -webkit-filter: invert(1);
@@ -56,6 +59,32 @@
         0 0 151px #0fa;
 }
 
+#december-hack-jam {
+    margin-bottom: 40px;
+}
+
+#december-hack-jam #december-hack-jam-text p {
+    font-size: '1.3em';
+    line-height: '2.3em';
+    margin-bottom: 40px;
+    position: relative;
+    word-spacing: 12px;
+}
+
+#december-hack-jam h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#december-hack-jam h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     #december-hack-jam .hide-on-mobile {
         display: none;
@@ -63,15 +92,13 @@
 }
 
 @media only screen and (min-width: 600px) {
-    #december-hack-jam * {
-        text-align: justify;
-    }
 
     #december-hack-jam button {
         width: 300px;
     }
 
     #december-hack-jam ul {
+        font-size: 23px;
         margin: 40px 0;
     }
         #december-hack-jam ul li {

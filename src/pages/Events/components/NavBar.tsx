@@ -19,10 +19,10 @@ const NavBar = () => {
 
                 <img className='hide-on-mobile hide-on-desktop' src='/img/barqia-title.png' />
             </Navbar.Brand>
-            <Button className='hide-on-mobile' style={{ background: '#30A4B4', float: 'right', padding: '16px' }}>
+            <Button className='hide-on-mobile' style={{ float: 'right', padding: '16px' }}>
                   Inscríbite aquí
             </Button>
-            <Button className='hide-on-desktop' style={{ background: '#30A4B4', float: 'right', fontSize: '15px', marginTop: '4px', padding: '8px', width: '60%' }}>
+            <Button className='hide-on-desktop' style={{ float: 'right', fontSize: '15px', marginTop: '4px', padding: '8px', width: '60%' }}>
                   Inscríbite aquí
             </Button>
         </Container>

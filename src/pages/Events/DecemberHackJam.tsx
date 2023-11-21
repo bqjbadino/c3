@@ -16,7 +16,7 @@ const DecemberHackJam = () => {
         <div id='december-hack-jam'>
             <NavBar />
         
-            <Container style={{ background: 'transparent' }}>
+            <Container id='december-hack-jam-text' style={{ background: 'transparent' }}>
                 
                 <img className='hide-on-mobile' src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
                 <Row>
@@ -34,8 +34,8 @@ const DecemberHackJam = () => {
                         */}
                         <img className='hide-on-mobile' src='/img/barqia-hackjam-2.jpg' />
                         <img className='hide-on-desktop' src='/img/barqia-hackjam-2.jpg' style={{ marginTop: '135px'}} />
-                        <h1 className='neon hide-on-mobile' style={{ fontSize: '75px', marginTop: '-250px' }}>SPORTS JAM</h1>
-                        <h1 className='neon hide-on-desktop' style={{ fontSize: '30px', marginTop: '-70px' }}>SPORTS JAM</h1>
+                        <h2 className='neon hide-on-mobile' style={{ fontSize: '75px', marginTop: '-250px' }}>SPORTS JAM</h2>
+                        <h2 className='neon hide-on-desktop' style={{ fontSize: '30px', marginTop: '-70px' }}>SPORTS JAM</h2>
                     </Col>
 
                     <Col sm={12} lg={12} style={{ zIndex: '1'}} >
@@ -45,9 +45,9 @@ const DecemberHackJam = () => {
 
                     <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
                         <div style={{ position: 'relative', zIndex: '1'}}>
-                            <p>
+                            <h1 style={{ fontWeight: 'bold', textAlign: 'center' }}>
                                 ¡Súmate al <strong>XR HACKATHON SPORTS 2023</strong>!
-                            </p>
+                            </h1>
                             <p>
                                 Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
                             </p>
@@ -74,9 +74,9 @@ const DecemberHackJam = () => {
                             <source src='/videos/barqia-ai-1.mp4' />
                         </video>
 
-                        <Button style={{ margin: '40px 0', padding: '30px 0'}}>
+                        <Button   style={{ margin: '40px 0', padding: '30px 0'}}>
                             Quiero inscribirme
-                        </Button>
+                        </<Button  >
                     </Col>
                     */}
 
@@ -88,23 +88,23 @@ const DecemberHackJam = () => {
                             <Row>
                                 <Col lg={4} style={{ textAlign: 'center' }}>
                                     <img className='img-symbol' src='/img/barqia-symbol-certificate.png' />
-                                    <h1>
-                                        <span className='barqia-purple-text'>Certificados de participación</span>
-                                    </h1>
+                                    <h2 className='barqia-purple-text'>
+                                        Certificados de participación
+                                    </h2>
                                 </Col>
 
                                 <Col lg={4} style={{ textAlign: 'center' }}>
                                     <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
-                                    <h1>
+                                    <h2>
                                         <span className='barqia-purple-text'>Trofeos</span>
-                                    </h1>
+                                    </h2>
                                 </Col>
 
                                 <Col lg={4} style={{ textAlign: 'center' }}>
                                     <img className='img-symbol' src='/img/barqia-symbol-gift.png' />
-                                    <h1>
+                                    <h2>
                                         <span className='barqia-purple-text'>Gift cards</span>
-                                    </h1>
+                                    </h2>
                                 </Col>
                             </Row>
                             {/**
@@ -115,9 +115,9 @@ const DecemberHackJam = () => {
                         <Col lg={12} style={{ zIndex: '1'}} >
                             <Row>
                                 <Col lg={6}>
-                                    <h1 style={{ margin: '40px 0'}}>
+                                    <h2 style={{ margin: '40px 0'}}>
                                         <strong>Distinciones</strong>
-                                    </h1>
+                                    </h2>
                                     <p>
                                         <ul>
                                             <li>
@@ -137,9 +137,9 @@ const DecemberHackJam = () => {
                                 </Col>
 
                                 <Col lg={6}>
-                                    <h1 style={{ margin: '40px 0'}}>
+                                    <h2 style={{ margin: '40px 0'}}>
                                         <strong>Menciones individuales</strong>
-                                    </h1>
+                                    </h2>
                                     <p>
                                         <ul>
                                             <li>
@@ -191,44 +191,44 @@ const DecemberHackJam = () => {
                         <Row>
                             <Col style={{ textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
-                                <h1>
+                                <h2>
                                     <span className='barqia-purple-text'>Comida y bebida</span>
-                                </h1>
+                                </h2>
                             </Col>
 
                             <Col style={{ textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-computer.png' />
-                                <h1>
+                                <h2>
                                     <span className='barqia-purple-text'>Mesa de trabajo</span>
-                                </h1>
+                                </h2>
                             </Col>
 
                             <Col style={{ textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-wifi.png' />
-                                <h1>
+                                <h2>
                                     <span className='barqia-purple-text'>Conexión a internet</span>
-                                </h1>
+                                </h2>
                             </Col>
 
                             <Col style={{ textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-building.png' />
-                                <h1>
+                                <h2>
                                     <span className='barqia-purple-text'>Zona de descanso</span>
-                                </h1>
+                                </h2>
                             </Col>
 
                             <Col style={{ textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' />
-                                <h1>
+                                <h2>
                                     <span className='barqia-purple-text'>Kit de bienvenida</span>
-                                </h1>
+                                </h2>
                             </Col>
                         </Row>
                         
                     </Col>
 
                     <Col sm={12} lg={12} style={{ marginTop: '40px', zIndex: '1' }}>
-                        <h1 style={{ marginBottom: '30px'}}>
+                        <h1 style={{ marginBottom: '40px'}}>
                             <strong>AGENDA</strong>
                         </h1>
 
@@ -323,35 +323,23 @@ const DecemberHackJam = () => {
                             Completa el siguiente formulario e indica si participas de forma individual o en equipo.
                         </p>
                         <p style={{ textAlign: 'center'}}>
-                            <Button style={{ padding: '15px 0'}}>
+                            <Button  style={{ padding: '15px 0'}}>
                                 Quiero inscribirme
                             </Button>
                         </p>
                         <p style={{ textAlign: 'center'}}>
-                            <Button style={{ backgroundColor: '#C3107C !important', padding: '15px 0'}}>
+                            <Button   style={{ padding: '15px 0'}}>
                                 Conoce las bases
                             </Button>
                         </p>
                     </Col>
 
-                    
-
-                    {/**
-                    <Col sm={12} lg={12}>
-                        <CarouselHackJam2 />
-                    </Col>
-                    */}
-
-                    
-
-                    
-
                     <Col sm={12} lg={12} style={{ zIndex: '1' }}>
-                        <h1 style={{ margin: '40px 0'}}>
+                        <h2 style={{ margin: '40px 0'}}>
                             <strong>
                                 CÓMO LLEGAR
                             </strong>
-                        </h1>
+                        </h2>
 
                         <p>
                             El evento tendrá lugar en el Campus del videojuego de Madrid in Game, que se ubica en la Casa de Campo y cuenta con 3 pabellones.
@@ -373,7 +361,7 @@ const DecemberHackJam = () => {
                     <Col style={{ textAlign: 'center', zIndex: '1' }}>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                        <Button style={{ padding: '15px 0'}}>
+                        <Button  style={{ padding: '15px 0'}}>
                             Cómo llegar
                         </Button>
                     </Col>

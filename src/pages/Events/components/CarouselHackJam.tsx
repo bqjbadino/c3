@@ -27,7 +27,7 @@ const CarouselHackJam = () => {
         </video>
          */}
         <img className='hide-on-desktop' src='/img/barqia-ai-2.JPG' />
-        <img className='hide-on-mobile' src='/img/barqia-sports-jam-2.jpg' />
+        <img className='hide-on-mobile' src='/img/barqia-hackjam.jpg' />
         <Carousel.Caption>
           {/**
           <h5>Second slide label</h5>
