@@ -74,83 +74,83 @@ const DecemberHackJam = () => {
                     </Col>
 
                     <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
-                            <Row>
-                                <Col lg={4} style={{ textAlign: 'center' }}>
-                                    <img className='img-symbol' src='/img/barqia-symbol-certificate.png' />
-                                    <h2 className='barqia-purple-text'>
-                                        Certificados de participación
-                                    </h2>
-                                </Col>
+                        <Row>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                                <img className='img-symbol' src='/img/barqia-symbol-certificate.png' />
+                                <h2 className='barqia-purple-text'>
+                                    Certificados de participación
+                                </h2>
+                            </Col>
 
-                                <Col lg={4} style={{ textAlign: 'center' }}>
-                                    <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
-                                    <h2>
-                                        <span className='barqia-purple-text'>Trofeos</span>
-                                    </h2>
-                                </Col>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                                <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
+                                <h2>
+                                    <span className='barqia-purple-text'>Trofeos</span>
+                                </h2>
+                            </Col>
 
-                                <Col lg={4} style={{ textAlign: 'center' }}>
-                                    <img className='img-symbol' src='/img/barqia-symbol-gift.png' />
-                                    <h2>
-                                        <span className='barqia-purple-text'>Gift cards</span>
-                                    </h2>
-                                </Col>
-                            </Row>
-                            {/**
-                            <img src='/img/barqia-certificate.jpg' />
-                            */}
-                        </Col>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                                <img className='img-symbol' src='/img/barqia-symbol-gift.png' />
+                                <h2>
+                                    <span className='barqia-purple-text'>Gift cards</span>
+                                </h2>
+                            </Col>
+                        </Row>
+                        {/**
+                        <img src='/img/barqia-certificate.jpg' />
+                        */}
+                    </Col>
 
-                        <Col lg={12} style={{ zIndex: '1'}} >
-                            <Row>
-                                <Col lg={6}>
-                                    <h2 style={{ margin: '40px 0'}}>
-                                        <strong>Distinciones</strong>
-                                    </h2>
-                                    <p>
-                                        <ul>
-                                            <li>
-                                                Distinción General: mejor implementación demostrando claramente las posibilidades de las nuevas tecnologías.
-                                            </li>
-                                            <li>
-                                                Distinción Juegos Inmersivos
-                                            </li>
-                                            <li>
-                                                Distinción Gaming
-                                            </li>
-                                            <li>
-                                                Distinción Aplicaciones
-                                            </li>
-                                        </ul>
-                                    </p>
-                                </Col>
+                    <Col lg={12} style={{ zIndex: '1'}} >
+                        <Row>
+                            <Col lg={6}>
+                                <h2 style={{ margin: '40px 0'}}>
+                                    <strong>Distinciones</strong>
+                                </h2>
+                                <p>
+                                    <ul>
+                                        <li>
+                                            Distinción General: mejor implementación demostrando claramente las posibilidades de las nuevas tecnologías.
+                                        </li>
+                                        <li>
+                                            Distinción Juegos Inmersivos
+                                        </li>
+                                        <li>
+                                            Distinción Gaming
+                                        </li>
+                                        <li>
+                                            Distinción Aplicaciones
+                                        </li>
+                                    </ul>
+                                </p>
+                            </Col>
 
-                                <Col lg={6}>
-                                    <h2 style={{ margin: '40px 0'}}>
-                                        <strong>Menciones individuales</strong>
-                                    </h2>
-                                    <p>
-                                        <ul>
-                                            <li>
-                                                Mención mejor desarrollador
-                                            </li>
-                                            <li>
-                                                Mención mejor modelador
-                                            </li>
-                                            <li>
-                                                Mención mejor compañero
-                                            </li>
-                                            <li>
-                                                Mención más creativo
-                                            </li>
-                                        </ul>
-                                    </p>
-                                </Col>
-                            </Row>
-                        </Col>
+                            <Col lg={6}>
+                                <h2 style={{ margin: '40px 0'}}>
+                                    <strong>Menciones individuales</strong>
+                                </h2>
+                                <p>
+                                    <ul>
+                                        <li>
+                                            Mención mejor desarrollador
+                                        </li>
+                                        <li>
+                                            Mención mejor modelador
+                                        </li>
+                                        <li>
+                                            Mención mejor compañero
+                                        </li>
+                                        <li>
+                                            Mención más creativo
+                                        </li>
+                                    </ul>
+                                </p>
+                            </Col>
+                        </Row>
+                    </Col>
 
-                        <Col sm={12} lg={12} style={{ zIndex: '1' }}>
-                        <h1 style={{ margin: '40px 0'}}>
+                    <Col sm={12} lg={12} style={{ zIndex: '1' }}>
+                        <h1 className='neon' style={{ margin: '40px 0'}}>
                             <strong>¡VIVE UNA EXPERIENCIA A JAMMER REAL!</strong>
                         </h1>
 
@@ -178,35 +178,35 @@ const DecemberHackJam = () => {
 
                     <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                         <Row>
-                            <Col style={{ textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Comida y bebida</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-computer.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Mesa de trabajo</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-wifi.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Conexión a internet</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-building.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Zona de descanso</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px',  textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Kit de bienvenida</span>
@@ -217,12 +217,12 @@ const DecemberHackJam = () => {
                     </Col>
 
                     <Col sm={12} lg={12} style={{ marginTop: '40px', zIndex: '1' }}>
-                        <h1 style={{ marginBottom: '40px'}}>
+                        <h1 className='neon' style={{ marginBottom: '40px'}}>
                             <strong>AGENDA</strong>
                         </h1>
 
                         <Row>
-                            <Col lg={4}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         VIERNES
@@ -248,7 +248,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col lg={4}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '0 10px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         SÁBADO
@@ -270,7 +270,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col lg={4}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         DOMINGO
@@ -299,7 +299,7 @@ const DecemberHackJam = () => {
                     </Col>
                     
                     <Col lg={12} style={{ zIndex: '1' }}>
-                        <h1 style={{ margin: '40px 0'}}>
+                        <h1 className='neon' style={{ margin: '40px 0'}}>
                             <strong>¡PARTICIPA EN LA XR HACKATHON SPORTS 2023!</strong>
                         </h1>
                         <h2>
