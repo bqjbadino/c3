@@ -38,8 +38,29 @@
 }
 
 #december-hack-jam .barqia-purple-text {
-    color: #EA37A3;
-    font-weight: bold;
+    color: lightgray;
+    text-shadow:
+        0 0 3px #EA37A3,
+        0 0 5px #EA37A3,
+        0 0 10px #EA37A3,
+        0 0 20px #EA37A3,
+        0 0 40px #EA37A3,
+        0 0 45px #EA37A3,
+        0 0 50px #EA37A3,
+        0 0 75px #EA37A3;
+}
+
+#december-hack-jam #december-hack-jam-text #sumate-al-xr {
+    color: black;
+    text-shadow:
+        0 0 1.5px black,
+        0 0 2.5px black,
+        0 0 5px black,
+        0 0 10px #AA99F9,
+        0 0 20px #AA99F9,
+        0 0 22.5px #AA99F9,
+        0 0 25px #AA99F9,
+        0 0 35px #AA99F9;
 }
 
 #december-hack-jam Col {
@@ -93,10 +114,17 @@
     #december-hack-jam h1 {
         font-size: 40px;
     }
+
+    #december-hack-jam #december-hack-jam-text p, #december-hack-jam #december-hack-jam-text ul {
+        font-size: 1.1em;
+    }
+
+    #december-hack-jam #december-hack-jam-text #sumate-al-xr {
+        margin-top: 13px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-
     #december-hack-jam button {
         width: 300px;
     }
@@ -115,5 +143,9 @@
 
     #december-hack-jam html, #december-hack-jam body, #december-hack-jam .App {
         background: transparent !important;
+    }
+
+    #december-hack-jam #december-hack-jam-text #sumate-al-xr {
+        margin-top: 30px;
     }
 }

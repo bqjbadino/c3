@@ -16,28 +16,23 @@ const DecemberHackJam = () => {
     return (
         <div id='december-hack-jam'>
             <NavBar />
-            <img className='hide-on-mobile' src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', opacity: '0.7', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
+                <img src='/img/barqia-purple-background-2.jpg' style={{ filter: 'grayscale(80%)', height: '100%', opacity: '0.4', position: 'fixed', top: '0', left: '0' , zIndex: '0'}}/>
             <div>
                 <img className='hide-on-mobile' src='/img/barqia-sports-jam.jpg' style={{ position: 'absolute', width: '100%', zIndex: '1' }} />
+                <img className='hide-on-desktop' src='/img/barqia-sports-jam-4.jpg' style={{ position: 'absolute', width: '100%', zIndex: '1' }} />
             </div>
             <Container id='december-hack-jam-text' style={{ background: 'transparent' }}>
-                <h1 style={{ background: 'rgba(0, 0, 0, 0.7)', borderRadius: '10px', fontWeight: 'bold', marginTop: '30px', padding: '15px 0', textAlign: 'center', zIndex: '1' }}>
+                <h1 id='sumate-al-xr' style={{ background: 'rgba(0, 0, 0, 0.7)', borderRadius: '10px', fontWeight: 'bold', padding: '15px 0', textAlign: 'center', zIndex: '1' }}>
                     <span style={{ fontSize: '45px' }}>¡Súmate al <strong>XR HACKATHON SPORTS 2023</strong>!</span>
                     <hr />
                     <Countdown />
                 </h1>
                 
                 <Row>
-
-                    <Col sm={12} lg={12} style={{ marginTop: '-135px', position: 'relative'}}>
-                        <img className='hide-on-desktop' src='/img/barqia-hackjam-2.jpg' style={{ marginTop: '135px'}} />
-                    </Col>
-                    
-
                     <Col sm={12} lg={12} style={{ marginTop: '40px', position: 'relative', zIndex: '1'}}>
                         <div style={{ display: 'block', position: 'relative', zIndex: '1'}}>
                             <h2 className='neon hide-on-mobile' style={{ fontSize: '75px', marginTop: '20px', zIndex: '1'}}>SPORTS JAM</h2>
-                            <h2 className='neon hide-on-desktop' style={{ fontSize: '30px', marginTop: '-70px' }}>SPORTS JAM</h2>
+                            <h2 className='neon hide-on-desktop' style={{ fontSize: '30px', marginTop: '-30px' }}>SPORTS JAM</h2>
                             <p>
                                 Transformando el mundo del deporte con inteligencia artificial y realidad virtual.
                             </p>
@@ -76,21 +71,21 @@ const DecemberHackJam = () => {
 
                     <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                         <Row>
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-certificate.png' />
                                 <h2 className='barqia-purple-text'>
                                     Certificados de participación
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '0 10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-trophy.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Trofeos</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-gift.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Gift cards</span>
@@ -105,7 +100,7 @@ const DecemberHackJam = () => {
                     <Col lg={12} style={{ zIndex: '1'}} >
                         <Row>
                             <Col lg={6}>
-                                <h2 style={{ margin: '40px 0', textAlign: 'left'}}>
+                                <h2 style={{ margin: '40px 0', textAlign: 'left' }}>
                                     <strong>Premios</strong>
                                 </h2>
                                 <p>
@@ -179,35 +174,35 @@ const DecemberHackJam = () => {
 
                     <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                         <Row>
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Comida y bebida</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-computer.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Mesa de trabajo</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-wifi.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Conexión a internet</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-building.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Zona de descanso</span>
                                 </h2>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px',  textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
                                 <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' />
                                 <h2>
                                     <span className='barqia-purple-text'>Kit de bienvenida</span>
@@ -223,7 +218,7 @@ const DecemberHackJam = () => {
                         </h1>
 
                         <Row>
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingTop: '20px',  textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         VIERNES
@@ -249,7 +244,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', margin: '0 10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '0 10px', paddingTop: '20px',  textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         SÁBADO
@@ -271,7 +266,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingTop: '20px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         DOMINGO
