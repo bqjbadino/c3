@@ -99,7 +99,7 @@ const DecemberHackJam = () => {
 
                     <Col lg={12} style={{ zIndex: '1'}} >
                         <Row>
-                            <Col lg={6}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', padding: '20px 15px', textAlign: 'center' }}>
                                 <h2 style={{ margin: '40px 0', textAlign: 'left' }}>
                                     <strong>Premios</strong>
                                 </h2>
@@ -121,7 +121,7 @@ const DecemberHackJam = () => {
                                 </p>
                             </Col>
 
-                            <Col lg={6}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', padding: '20px 15px', textAlign: 'center' }}>
                                 <h2 style={{ margin: '40px 0', textAlign: 'left'}}>
                                     <strong>Menciones individuales</strong>
                                 </h2>
@@ -218,7 +218,7 @@ const DecemberHackJam = () => {
                         </h1>
 
                         <Row>
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', paddingTop: '20px',  textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', padding: '20px 15px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         VIERNES
@@ -227,24 +227,24 @@ const DecemberHackJam = () => {
 
                                 <ul>
                                     <li>
-                                        <strong>(Horario)</strong> Apertura y registro
+                                        <strong>[Horario]</strong> Apertura y registro
                                     </li>
 
                                     <li>
-                                        <strong>(Horario)</strong> Bienvenida y sesión de inauguración
+                                        <strong>[Horario]</strong> Bienvenida y sesión de inauguración
                                     </li>
 
                                     <li>
-                                        <strong>(Horario)</strong> Networking y creación de equipos
+                                        <strong>[Horario]</strong> Networking y creación de equipos
                                     </li>
 
                                     <li>
-                                        <strong>(Horario)</strong> ¡Que empiece el juego!
+                                        <strong>[Horario]</strong> ¡Que empiece el juego!
                                     </li>
                                 </ul>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', paddingTop: '20px',  textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', padding: '20px 15px',  textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         SÁBADO
@@ -266,7 +266,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', paddingTop: '20px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', padding: '20px 15px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         DOMINGO
@@ -275,19 +275,19 @@ const DecemberHackJam = () => {
 
                                 <ul>
                                     <li>
-                                        <strong>(Horario)</strong> Entrega del videojuego
+                                        <strong>[Horario]</strong> Entrega del videojuego
                                     </li>
 
                                     <li>
-                                        <strong>(Horario)</strong> Bienvenida y sesión de inauguración
+                                        <strong>[Horario]</strong> Bienvenida y sesión de inauguración
                                     </li>
 
                                     <li>
-                                        <strong>(Horario)</strong> Networking y creación de equipos
+                                        <strong>[Horario]</strong> Networking y creación de equipos
                                     </li>
 
                                     <li>
-                                        <strong>(Horario)</strong> ¡Que empiece el juego!
+                                        <strong>[Horario]</strong> ¡Que empiece el juego!
                                     </li>
                                 </ul>
                             </Col>
