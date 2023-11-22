@@ -18,12 +18,14 @@
 }
 
 #december-hack-jam button {
-    background: rgba(48, 164, 180, 0.7);
+    background: rgba(95, 78, 171, 0.7);
+    border: 4px solid #392884;
     text-align: center;
     width: 100%;
 }
     #december-hack-jam button:hover {
-        background: rgba(48, 164, 180, 1);
+        background: rgba(77, 171, 95, 1) !important;
+        border: 4px solid #288439;
     }
 
 #december-hack-jam .img-symbol {

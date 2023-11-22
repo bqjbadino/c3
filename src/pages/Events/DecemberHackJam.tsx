@@ -218,7 +218,7 @@ const DecemberHackJam = () => {
                         </h1>
 
                         <Row>
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingTop: '20px',  textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', paddingTop: '20px',  textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         VIERNES
@@ -244,7 +244,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '0 10px', paddingTop: '20px',  textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', paddingTop: '20px',  textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         SÁBADO
@@ -266,7 +266,7 @@ const DecemberHackJam = () => {
                                 </ul>
                             </Col>
 
-                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingTop: '20px', textAlign: 'center' }}>
+                            <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', paddingTop: '20px', textAlign: 'center' }}>
                                 <h2>
                                     <strong>
                                         DOMINGO
