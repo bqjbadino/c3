@@ -9,8 +9,9 @@ import Button from 'react-bootstrap/Button';
 import NavBar from './components/NavBar.tsx';
 import CarouselHackJam from './components/CarouselHackJam.tsx';
 import CarouselHackJam2 from './components/CaruoselHackJam2.tsx';
-import Countdown from './components/Countdown/Countdown.tsx';
 import Footer from '../../components/Footer/Footer.tsx';
+
+import CountdownComponent from './components/Countdown/Countdown.tsx';
 
 const DecemberHackJam = () => {
     return (
@@ -25,7 +26,7 @@ const DecemberHackJam = () => {
                 <h1 id='sumate-al-xr' style={{ background: 'rgba(0, 0, 0, 0.7)', borderRadius: '10px', fontWeight: 'bold', padding: '15px 0', textAlign: 'center', zIndex: '1' }}>
                     <span style={{ fontSize: '45px' }}>¡Súmate al <strong>XR HACKATHON SPORTS 2023</strong>!</span>
                     <hr />
-                    <Countdown />
+                    <CountdownComponent />
                 </h1>
                 
                 <Row>
