@@ -88,18 +88,6 @@
     margin-bottom: 40px;
 }
 
-#december-hack-jam #december-hack-jam-text p {
-    font-size: '1.3em';
-    line-height: '2.3em';
-    margin-bottom: 40px;
-    position: relative;
-    word-spacing: 12px;
-}
-
-#december-hack-jam #december-hack-jam-text ul li {
-    font-size: 21px
-}
-
 #december-hack-jam h1 {
     font-size: 70px;
     margin-bottom: 40px;
@@ -112,6 +100,19 @@
     margin-bottom: 40px;
     position: relative;
     text-align: center;
+}
+
+#december-hack-jam #december-hack-jam-text p {
+    font-size: '1.3em';
+    line-height: '2.3em';
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    word-spacing: 12px;
+}
+
+#december-hack-jam #december-hack-jam-text ul li {
+    font-size: 21px
 }
 
 @media only screen and (max-width: 600px) {

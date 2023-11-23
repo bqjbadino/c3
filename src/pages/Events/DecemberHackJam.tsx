@@ -8,7 +8,6 @@ import Button from 'react-bootstrap/Button';
 
 import NavBar from './components/NavBar.tsx';
 import CarouselHackJam from './components/CarouselHackJam.tsx';
-import CarouselHackJam2 from './components/CaruoselHackJam2.tsx';
 import Footer from '../../components/Footer/Footer.tsx';
 
 import CountdownComponent from './components/Countdown/Countdown.tsx';
