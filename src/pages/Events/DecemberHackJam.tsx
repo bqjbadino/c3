@@ -48,8 +48,6 @@ const DecemberHackJam = () => {
                             del videojuego y la programación, buscando impulsar el talento gamer,
                             <span style={{ fontWeight: 'bold' }}> creando oportunidades, nuevos proyectos y tecnologías.</span>
                         </p>
-
-                        
                     </Col>
 
                     
@@ -345,7 +343,7 @@ const DecemberHackJam = () => {
                     </Col>
 
                     <Col style={{ textAlign: 'center', zIndex: '1' }}>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} loading="lazy"></iframe>
 
                         <Button  style={{ padding: '15px 0'}}>
                             Cómo llegar

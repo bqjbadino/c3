@@ -2,6 +2,17 @@
     font-size: 30px;
     margin-left: -10px;
     z-index: 1;
+
+    color: black;
+    text-shadow:
+        0 0 1.5px black,
+        0 0 2.5px black,
+        0 0 5px black,
+        0 0 10px #AA99F9,
+        0 0 20px #AA99F9,
+        0 0 22.5px #AA99F9,
+        0 0 25px #AA99F9,
+        0 0 35px #AA99F9;
 }
 
 #countdown p {
