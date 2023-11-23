@@ -144,8 +144,8 @@ const DecemberHackJam = () => {
                     </Col>
 
                     <Col sm={12} lg={12} style={{ zIndex: '1' }}>
-                        <h1 className='neon' style={{ margin: '40px 0'}}>
-                            <strong>¡VIVE UNA EXPERIENCIA JAMMER REAL!</strong>
+                        <h1 id="vive-experiencia-jammer-text" style={{ margin: '40px 0'}}>
+                            ¡VIVE UNA EXPERIENCIA JAMMER REAL!
                         </h1>
 
                         <p style={{ marginTop: '70px'}}>

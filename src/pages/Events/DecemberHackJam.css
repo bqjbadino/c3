@@ -74,14 +74,27 @@
 #december-hack-jam .neon {
     color: #fff;
     text-shadow:
-        0 0 7px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #0fa,
-        0 0 82px #0fa,
-        0 0 92px #0fa,
-        0 0 102px #0fa,
-        0 0 151px #0fa;
+        0 0 21px #0fa,
+        0 0 41px #0fa,
+        0 0 45px #0fa,
+        0 0 51px #0fa,
+        0 0 75px #0fa;
+}
+
+#vive-experiencia-jammer-text {
+    color: #fff;
+    text-shadow:
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 21px #0fa,
+        0 0 41px #0fa,
+        0 0 45px #0fa,
+        0 0 51px #0fa,
+        0 0 75px #0fa;
 }
 
 #december-hack-jam {
