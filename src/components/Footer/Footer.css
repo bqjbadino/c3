@@ -1,7 +1,4 @@
 #footer {
     background: rgba(0, 0, 0, 0.5);
-}
-
-#footer #barqia-social-networks img {
-    width: 50px
+    margin: '5px',
 }
