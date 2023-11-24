@@ -4,6 +4,7 @@
 
 #about-us {
     margin-bottom: 40px;
+    padding: 0 30px;
 }
 
 #about-us #about-us-text p {
@@ -21,4 +22,14 @@
     margin-bottom: 40px;
     position: relative;
     text-align: center;
+}
+
+#team-cards {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #about-us #about-us-text h1, #about-us #team-cards h1 {
+        font-size: 40px;
+    }
 }

@@ -14,8 +14,10 @@ const Home = () => {
     return (
         <div>
             <VideoMetaverse />
+            {/**
             <Video360 />
-                <Container>
+             */}
+                <Container style={{ padding: '0 30px'}}>
                     <Row style={{marginTop: '50px'}}>
                         <Col lg={6} md={6} sm={12}>
                             <VideoRugby />
@@ -34,13 +36,35 @@ const Home = () => {
                             <VideoTennis />
                         </Col>
                             
-                        <Col lg={12} md={12} sm={12} style={{color: 'white', lineHeight: '3em', margin: '50px 0 100px 0', textAlign: 'center'}}>
+                        <Col lg={12} md={12} sm={12} style={{color: 'white', lineHeight: '3em', margin: '50px 0 25px 0', textAlign: 'center'}}>
                             <h1 style={{lineHeight: '2em'}}>IF YOU ARE AN <strong>ATHLETE</strong> OR AN <strong>SPORT ENTITIY</strong>, WE INVITE YOU TO <a href='Contact'>ASOCIATE WITH US</a>...</h1>
 
                             <p>At Barqia Sports, one of our main objectives is to build strong, long-term partnerships with professional sports clubs and organisations. Our approach is to create a fully immersive plan that elevates the club to the highest engagement and sporting experience level.</p>
                         </Col>
                     </Row>
              </Container>
+             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
+                <Row>
+                    <Col style={{ textAlign: 'center' }}>
+                        <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px'}} />
+                    </Col>
+                </Row>
+                <hr style={{ margin: '40px 0'}} />
+                <Row id='barqia-social-networks'>
+                    <Col style={{ textAlign: 'center' }}>
+                        <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                        <a target="_blank" href='https://www.linkedin.com/company/barqiasports/?originalSubdomain=es'><img src='/img/icon-linkedin.png' style={{ filter: 'brightness(0) invert(1)', margin: '0 40px', marginTop: '-10px', width: '37px'}}  /></a>
+                        <a target="_blank" href='https://www.instagram.com/barqiasports/'><img src='/img/icon-instagram.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                            2023 Barqia - All Rights Reserved.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

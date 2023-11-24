@@ -4,3 +4,15 @@
     padding: 20px;
     margin: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    #video-kick {
+        display: none;
+    }
+
+    .barqia-level {
+        border: 1px solid lightgray;
+        padding: 20px 40px;
+        margin: 10px 0;
+    }
+}

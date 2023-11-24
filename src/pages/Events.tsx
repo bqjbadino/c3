@@ -9,7 +9,7 @@ const Events = () => {
     return (
         <Container id='events'>
             <a href='Events/DecemberHackJam'>
-                <img src='/img/sports-jam-diciembre-2023/sports-jam-barqia-onklub.png'
+                <img id="sports-jam-img" src='/img/sports-jam-diciembre-2023/sports-jam-barqia-onklub.png'
                     style={{
                         position: 'absolute',
                         top: '-50px',
@@ -30,7 +30,30 @@ const Events = () => {
                 }}>
                     DICIEMBRE 2023 - Sitio web del evento
             </a>
+            <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
+                <Row>
+                    <Col style={{ textAlign: 'center' }}>
+                        <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px'}} />
+                    </Col>
+                </Row>
+                <hr style={{ margin: '40px 0'}} />
+                <Row id='barqia-social-networks'>
+                    <Col style={{ textAlign: 'center' }}>
+                        <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                        <a target="_blank" href='https://www.linkedin.com/company/barqiasports/?originalSubdomain=es'><img src='/img/icon-linkedin.png' style={{ filter: 'brightness(0) invert(1)', margin: '0 40px', marginTop: '-10px', width: '37px'}}  /></a>
+                        <a target="_blank" href='https://www.instagram.com/barqiasports/'><img src='/img/icon-instagram.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                            2023 Barqia - All Rights Reserved.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
+        
     )
 }
 

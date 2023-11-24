@@ -4,6 +4,7 @@ import './WhatWeDo.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import VideoWhatWeDo from '../components/VideoWhatWeDo/VideoWhatWeDo.tsx'
 
@@ -25,6 +26,28 @@ const WhatWeDo = () => {
 
                 <p>On the side of the sports entities and athletes, they will be able to grow their level and therefore increase their digital assets thanks to the interaction of their fans in the activities or experiences within Barqia Sports World. The fans of each club, while interacting or participating in the experiences within Barqia Sports World, will be earning points and therefore obtaining real benefits from their club or athlete.</p>
             </Row>
+            <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
+                <Row>
+                    <Col style={{ textAlign: 'center' }}>
+                        <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px'}} />
+                    </Col>
+                </Row>
+                <hr style={{ margin: '40px 0'}} />
+                <Row id='barqia-social-networks'>
+                    <Col style={{ textAlign: 'center' }}>
+                        <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                        <a target="_blank" href='https://www.linkedin.com/company/barqiasports/?originalSubdomain=es'><img src='/img/icon-linkedin.png' style={{ filter: 'brightness(0) invert(1)', margin: '0 40px', marginTop: '-10px', width: '37px'}}  /></a>
+                        <a target="_blank" href='https://www.instagram.com/barqiasports/'><img src='/img/icon-instagram.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                            2023 Barqia - All Rights Reserved.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
     )
 }
