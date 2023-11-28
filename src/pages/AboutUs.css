@@ -9,16 +9,17 @@
 
 #about-us #about-us-text p {
     color: white;
-    font-size: '1.3em';
+    font-size: 16px;
+    font-weight: bold;
     line-height: '2.3em';
     margin-bottom: 40px;
     position: relative;
-    word-spacing: 12px;
 }
 
 #about-us h1 {
     color: white;
-    font-size: 96px;
+    font-size: 60px;
+    font-weight: bold;
     margin-bottom: 40px;
     position: relative;
     text-align: center;

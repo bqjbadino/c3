@@ -7,29 +7,38 @@ import { Row, Col } from 'react-bootstrap';
 
 const Events = () => {
     return (
-        <Container id='events'>
-            <a href='Events/DecemberHackJam'>
-                <img id="sports-jam-img" src='/img/sports-jam-diciembre-2023/sports-jam-barqia-onklub.png'
-                    style={{
-                        position: 'absolute',
-                        top: '-50px',
-                        left: '0',
-                        opacity: '0.8',
-                        width: '100%',
-                        zIndex: '0'
-                    }}
-                />
-            </a>
+        <Container id='events' fluid>
+            <Row>
+                <Col>
+                    <a href='Events/DecemberHackJam'>
+                        <img id="sports-jam-img" src='/img/sports-jam-diciembre-2023/sports-jam-barqia-onklub.png'
+                            style={{
+                                
+                                top: '-50px',
+                                left: '0',
+                                opacity: '0.8',
+                                width: '100%',
+                                zIndex: '0'
+                            }}
+                        />
+                    </a>
+                </Col>
+            </Row>
             
-            <a className='neon' href='/Events/DecemberHackJam'
-                style={{
-                    position: 'absolute',
-                    top: '430px',
-                    left: '295px',
-                    fontSize: '40px'
-                }}>
-                    DICIEMBRE 2023 - Sitio web del evento
-            </a>
+
+            <Row id='event-link'>
+                <Col style={{ textAlign: 'center'}}>
+                    <a className='neon' href='/Events/DecemberHackJam'
+                        style={{
+                            top: '430px',
+                            left: '295px',
+                        }}>
+                            17 de diciembre 2023<br />
+                            {'->'} Sitio web del evento {'<-'}
+                    </a>
+                </Col>
+            </Row>
+            
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>
