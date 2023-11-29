@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+#about-us #about-us-text p img {
+    width: 100%;
+}
+
 #team-cards {
     margin-bottom: 50px;
 }

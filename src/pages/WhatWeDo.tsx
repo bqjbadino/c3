@@ -19,12 +19,24 @@ const WhatWeDo = () => {
 
                 <p>Thanks to our cutting-edge technology, this allows us to capture the maximum attention of the fans and create a closer bond between them and their favourite clubs or athletes. Sports entities will have the opportunity to create their own digital value and make it grow while generating greater interaction with their fans on the Barqia Sport World platform.</p>
 
+                <p>
+                    <img src='/img/barqia-what-we-do-3.jpg' />
+                </p>
+
                 <p>The opportunities that Barqia Sports offers clubs and athletes are multiple, from becoming strategic partners to achieve a technological transformation, to creating their own virtual sports city with immersive VR content, statistics, blockchain technology, artificial intelligence and even augmented reality.
                 </p>
 
                 <p>Join the Barqia Sports World platform, interact and level up!</p>
 
+                <p>
+                    <img src='/img/barqia-what-we-do-2.jpg' />
+                </p>
+
                 <p>On the side of the sports entities and athletes, they will be able to grow their level and therefore increase their digital assets thanks to the interaction of their fans in the activities or experiences within Barqia Sports World. The fans of each club, while interacting or participating in the experiences within Barqia Sports World, will be earning points and therefore obtaining real benefits from their club or athlete.</p>
+
+                <p>
+                    <img src='/img/barqia-what-we-do-1.jpg' />
+                </p>
             </Row>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
                 <Row>
