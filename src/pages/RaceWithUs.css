@@ -114,7 +114,17 @@
     right: -25px;
 }
 
+@media only screen and (min-width: 600px) {
+    #levels-mobile {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    #race-with-us #ovalo {
+        display: none;
+    }
+
     #video-kick {
         display: none;
     }
