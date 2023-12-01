@@ -131,7 +131,13 @@
 
     .barqia-level {
         border: 1px solid lightgray;
-        padding: 20px 40px;
-        margin: 10px 0;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-left: 15px;
+        width: 250px
+    }
+
+    #levels-mobile img {
+        width: 225px !important
     }
 }

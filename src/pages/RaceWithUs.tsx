@@ -230,7 +230,7 @@ const RaceWithUs = () => {
 
                             <Col lg={6} sm={12}>
                                 <p>
-                                    <img src='/img/levels/barqia-level-1.png' />
+                                    <img src='/img/levels/barqia-level-1.png' style={{ width: '225px'}} />
                                 </p>
                             </Col>
                         </Row>
