@@ -8,8 +8,6 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import NavBar from '../components/NavBar/NavBar.tsx';
-
 import VideoWorld from '../components/VideoWorld/VideoWorld.tsx'
 
 const World = () => {
@@ -34,8 +32,10 @@ const World = () => {
                     <Form.Check type="checkbox" label="Remember password" />
                 </Form.Group>
                 <p style={{textAlign: 'center'}}>
-                    <Button className="barqia-button" type="submit" style={{padding: '10px 20px'}}>
-                        Enter World
+                    <Button className="barqia-button" style={{padding: '10px 20px'}}>
+                        <a href='https://d4-bsw.vercel.app/' style={{ color: 'white' }} >
+                            Enter World
+                        </a>
                     </Button>
                 </p>
             </Form>
