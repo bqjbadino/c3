@@ -32,11 +32,13 @@ const World = () => {
                     <Form.Check type="checkbox" label="Remember password" />
                 </Form.Group>
                 <p style={{textAlign: 'center'}}>
-                    <Button className="barqia-button" style={{padding: '10px 20px'}}>
-                        <a href='https://d4-bsw.vercel.app/' style={{ color: 'white' }} >
-                            Enter World
+                    
+                        <a href={process.env.PUBLIC_URL + "WebGL/index.html"} style={{ color: 'white' }} >
+                            <Button className="barqia-button" style={{padding: '10px 20px'}}>
+                                Enter World
+                            </Button>
                         </a>
-                    </Button>
+                    
                 </p>
             </Form>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
